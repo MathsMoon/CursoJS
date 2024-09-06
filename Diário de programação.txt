@@ -1,0 +1,6 @@
+Diário comum de programação destinado a descrever dia após dia os avanços e monólogos que eu quiser ter comigo mesmo.
+
+1 - Depois de 2 dias estudando por fora do desafio, finalmente volto a realiza-lo, demorei muito para tornar a voltar a estudar
+diariamente e isso não posso deixar ocorrer novamente. Para voltar com grande estilo um curso gigantesco da Udemy com 644 aulas (atualmente 05/09),
+apesar de não ter voltado com o estudo de java, logo pretendo retoma-lo em conformidade com meus estudos do BackEnd, sendo versátil
+não apenas no Spring mas no NodeJs que é uma ferramenta muito requisitada.
