@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas em HTML</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+
+        table{
+            max-width: 800px;
+            border-collapse: collapse;
+        }
+
+        table caption{
+            caption-side: bottom;
+            text-align: right;
+            font-style: italic;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        table td, table th {
+            border: 1px solid #ccc;
+            padding: 5px;
+        }
+
+        tfoot td {
+            background: #ddd;
+        }
+
+        .responsive-table{
+            max-width: 100%;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit</p>
+    <div class="responsive-table">
+        <table>
+            <caption>Tabela de ????????</caption>
+            <thead>
+                <tr>
+                    <th>Título 1</th>
+                    <th>Título 2</th>
+                    <th>Título 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellendus maxime repudiandae, cupiditate in optio vero nostrum rerum natus necessitatibus similique eligendi explicabo accusantium dolorum. Aut similique blanditiis dicta ullam!</td>
+                    <td>Corpo 2</td>
+                    <td rowspan="3">Ocupando 3 Vertical</td>
+                </tr>
+                <tr>
+                    <td colspan="2" row>Ocupando 2 horizontal</td>
+                </tr>
+                <tr>
+                    <td>Corpo 1</td>
+                    <td>Corpo 2</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2" rowspan="2"></td>
+                    <td>Total: </td>
+                </tr> 
+                <tr>
+                    <td>214312414</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
