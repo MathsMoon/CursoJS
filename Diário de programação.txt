@@ -9,3 +9,7 @@ não apenas no Spring mas no NodeJs que é uma ferramenta muito requisitada.
 o certo seriam 6 aulas por dia para ver todos os 644 conteúdos, mas é fato que eu não vou ver tudo já que o próprio curso tem módulos 
 iniciantes na programação que eu não vou utilizar, portanto eu quero pelo menos manter um bom ritmo e finalizar a parte do HTML e CSS
 até Domingo para não ficar atrasando meu horário ou acumular aulas e ter problemas futuramente.
+
+3 - Não tive avanços nas aulas.
+
+4 - No dia de hoje fui seguindo as aulas de formulários para continuar o estudo.
