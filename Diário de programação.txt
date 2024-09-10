@@ -13,3 +13,7 @@ até Domingo para não ficar atrasando meu horário ou acumular aulas e ter prob
 3 - Não tive avanços nas aulas.
 
 4 - No dia de hoje fui seguindo as aulas de formulários para continuar o estudo.
+
+5 - Consegui terminar as aulas de formulário e construir uma pequena estrutura para receber dados, as próximas aulas darão mais autonomia
+para utilizar o CSS e para estudar formas de melhorar o layout do site, vou avançar o máximo que posso essa semana para não estender demais
+essa etapa do curso, ainda preciso estruturar mais meu conhecimento para meus projetos pessoais.

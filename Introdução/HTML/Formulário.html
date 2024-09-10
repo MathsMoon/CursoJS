@@ -8,35 +8,46 @@
         body {
             font-family: sans-serif;
         }
-
         label {
             cursor: pointer;
-            display: block;
         }
     </style>
 </head>
 <body>
     <form action="#" method="get" target="_blank">
-        <p>Formulário padrão:</p>
+        <p>Formulário Developers</p>
         <p>
             <label for="name">Nome:</label>
             <input type="text" name="name" id="name" placeholder="Seu nome" required>
         </p>
         <p>
             <label for="email">Email:</label>
-            <input type="email" name="email" id="email" placeholder="Seu email" required>
+            <input type="email" name="email" id="email" placeholder="ex.: email@email.com" required>
         </p>
         <p>
-            <label for="dev">Trabalha com qual linguagem?:</label>
-            <input type="checkbox" name="dev" id="dev" value="Java">Java<br>
-            <input type="checkbox" name="dev" id="dev" value="C++">C++<br>
-            <input type="checkbox" name="dev" id="dev" value="Python">Python<br>
-            <input type="checkbox" name="dev" id="dev" value="PHP">PHP<br>
-            <input type="checkbox" name="dev" id="dev" value="JavaScript">JavaScript<br>
-            <input type="checkbox" name="dev" id="dev" value="C#">C#<br>
-            <label for="outro">Caso não contenha:</label>
-            <input type="text" name="outro" id="outro" placeholder="Outro">
+            <label for="dev">Trabalha com qual linguagem?:</label><br>
+            <input type="checkbox" name="dev" id="dev-java" value="Java">Java<br>
+            <input type="checkbox" name="dev" id="dev-cpp" value="C++">C++<br>
+            <input type="checkbox" name="dev" id="dev-python" value="Python">Python<br>
+            <input type="checkbox" name="dev" id="dev-php" value="PHP">PHP<br>
+            <input type="checkbox" name="dev" id="dev-javascript" value="JavaScript">JavaScript<br>
+            <input type="checkbox" name="dev" id="dev-csharp" value="C#">C#<br>
+            <label for="outro">Para outras linguagens:</label>
+            <input type="text" name="outro" id="outro" placeholder="ex.: Perl">
         </p>
+        <p>
+            Gênero:<br>
+            <label for="feminino">Feminino</label>
+            <input type="radio" name="genero" id="feminino" value="feminino"><br>
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="masculino" value="masculino">
+        </p>
+
+        <p>
+            Sua foto:<br>
+            <input type="file" name="foto" id="foto" accept="image/*">
+        </p>
+
         <p>
             <button type="submit">Enviar</button>
             <button type="reset">Resetar</button>
