@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* p {
+    color: red;
+} */
+
+body section div h1 {
+    font-style: italic;
+}
+
+body section div p {
+    color: red;
+}
+
+.outro {
+    color: blueviolet;
+}
+
+/* .outro p {
+    color: purple;
+} */
+
+.mais-um div.div-um h6.mini {
+    font-size: smaller;
+    color: yellow;
+}
