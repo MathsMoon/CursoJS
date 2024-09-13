@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    color: initial;
+    margin-left: 20px;
+}
+
+/* Herança através da hierarquia */
+.Pai > .Filha {
+    color: red;
+}
+
+/* Especificando a herança para a neta do pai */
+.Pai > .Filha > .Filha-da-filha{
+    color: blue;
+}
