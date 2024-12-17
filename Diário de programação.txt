@@ -1,26 +1,9 @@
 Diário comum de programação destinado a descrever dia após dia os avanços e monólogos que eu quiser ter comigo mesmo.
 
-1 - primeiro dia, depois de 2 dias estudando por fora do desafio, finalmente volto a realiza-lo, demorei muito para tornar a voltar a 
-estudar diariamente e isso não posso deixar ocorrer novamente. Para voltar com grande estilo um curso gigantesco da Udemy com 644 aulas 
-(atualmente 05/09), apesar de não ter voltado com o estudo de java, logo pretendo retoma-lo em conformidade com meus estudos do BackEnd,
-sendo versátil não apenas no Spring mas no NodeJs que é uma ferramenta muito requisitada.
-
-2 - segundo dia, no dia de hoje consegui avançar mais um pouco nas aulas e consegui criar simples tabelas e listas. Ainda tenho que ver 
-muitas aulas o certo seriam 6 aulas por dia para ver todos os 644 conteúdos, mas é fato que eu não vou ver tudo já que o próprio curso 
-tem módulos iniciantes na programação que eu não vou utilizar, portanto eu quero pelo menos manter um bom ritmo e finalizar a parte do 
-HTML e CSS até Domingo para não ficar atrasando meu horário ou acumular aulas e ter problemas futuramente.
-
-3 - terceiro dia, não tive avanços nas aulas.
-
-4 - quarto dia, no dia de hoje fui seguindo as aulas de formulários para continuar o estudo.
-
-5 - quinto dia, consegui terminar as aulas de formulário e construir uma pequena estrutura para receber dados, as próximas aulas darão 
-mais autonomia para utilizar o CSS e para estudar formas de melhorar o layout do site, vou avançar o máximo que posso essa semana para 
-não estender demais essa etapa do curso, ainda preciso estruturar mais meu conhecimento para meus projetos pessoais.
-
-6 - sexto dia, fui organizando as pastas de conteúdo de acordo com o que o professor ensinava para já aprender a utilizar de forma 
-prática a estrutura de pastas que mais pra frente será utilizada na construção de uma landing page.
-
-7 - sétimo dia, não consigo fazer nada com 15 minutos sobrando, vou deixar pra amanhã.
-
-8 - oitavo dia, avancei nas aulas de seletores mas preciso terminar logo antes do fim de semana.
+1 - Depois de muitos meses fora, hoje, dia 16 de dezembro, retorno a estudar programação web. Meu objetivo será retomar os estudos com 
+calma, tendo foco primeiro na consistência e na valorização de um esforço contínuo para que eu não deixe este projeto de lado, portanto 
+não tenho perspectiva de realmente durar 100 dias. Apesar de não ter prazo para este projeto, o formato continuará o mesmo pela minha 
+familiaridade com a organização deste conteúdo, assim posso disponibilizar de forma prática e rápida o que estou fazendo e meu progresso,
+tenho grandes expectativas, então estou retornando com o foco para garantir que esses próximos 2/3 meses consigam ao menos completado 75%
+deste curso de JavaScript e TypeScript, eu estou de olho na minha formação e sei que consigo avançar e é o meu objetivo, que começa agora 
+neste fim de ano e só para no fim de minha vida, até lá é puro estudo e dedicação neste sonho que eu amo tanto.

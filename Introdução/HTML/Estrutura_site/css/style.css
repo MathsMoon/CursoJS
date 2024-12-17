@@ -1,0 +1,26 @@
+/* O display basicamente demonstra na página o conteúdo que estamos organizando,
+sendo configurado como bloco mexemos no objeto como uma caixa podendo redimensiona-lo
+e seta-lo, caso seja inline ele respeita a linha na qual ele se encontra e com isso não
+podemos configurar o objeto através da Div.
+
+No caso abaixo respeitando o objeto e os textos como um bloco temos a possibilidade de 
+utilizar o comando overflow para para adicionar um mecanismo reduzindo o tamanho da
+margem do texto que supera o eixo original do bloco em 200px, o que mostraria o texto
+indo além das margens do background, mas com o overflow auto é adicionado essa mecânica
+de que caso passe o tamanho do texto, automaticamente ele altera o tipo do overflow 
+para nele conter o texto completo.
+*/
+
+*{
+    /*Colocando 10px entre cada texto*/
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.texto {
+    display: block;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    overflow: auto; 
+}

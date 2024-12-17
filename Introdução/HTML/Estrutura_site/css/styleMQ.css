@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid::after {
+    content: ' ';
+    display: block;
+    clear: both; 
+}
+
+.grid {
+    padding: 15px;
+}
+
+.grid .col {
+    width: 33.33%;
+    height: 300px;
+    float: left;
+    padding: 15px;
+}
+
+.grid .col-content{
+    width: 100%;
+    height: 100%;
+    background: red;
+}
+
+/* 
+    Para organizar a formatação condicional dependendo do dispostivo que acessa a informação, utiliza-se a @media. Com essa propriedade
+    temos melhor controle para pré-configurar o display das informações de acordo com o dispositivo. 
+*/
+
+@media all and (max-width: 320px) {
+    .grid .col {
+     width: 100%;
+    }        
+}
+
+@media all and (min-width: 321px) and (max-width:768) {
+    .grid .col {
+     width: 50%;
+    }        
+}

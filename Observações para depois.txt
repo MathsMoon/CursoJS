@@ -1,0 +1,14 @@
+Pontos importantes para serem revisados posteriormente:
+
+1- Utilização de Fotos.
+2- Organização de Grid e flexibilização.
+3- Fontes e tamanhos.
+4- @media e suas utilizações.
+5- 
+
+
+Comentários sobre as aulas:
+
+595 - Unidades de Medida: Muito interessante usar uma medida relativa para organizar toda a estrutura do site, como por padrão o 
+navegador pega um número quebrado, ele reduziu em % para obter um número fechao (que era o 10), assim ele pode calcular de forma
+mais fácil por estar usando a base 10 como padrão para o .html;

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+    Dentre os diferentes tipos de display, podemos utilizar as mais variadas formas para 
+    construir visualmente a disposição dos elementos, no exemplo abaixo temos um ponto flutuante
+    entre elementos que consome a cada coluna medidas que determinamos para construir uma "Ilha"
+    para cada um singularmente, para então termos a possibilidade de construir qualquer outra
+    disposição sem que atrapalhemos este grid, podemos fazer o uso de pseudo-elemento para
+    configurar o que acontece após a formatação do grid, mas poderiamos ter dinamicamente para
+    qualquer lado ou ação.
+
+    Abaixo temos a divisão da grid que ocorre da seguinte forma:
+    
+    A primeira camada do grid por padrão já recebe um padding de 15px, dando esses píxeis para toda a estrutura inicial,
+    que ao ser organizada junto a coluna, gera tanto a ilha quanto também a soma de +15px. Toda essa organização faz com que o conteúdo
+    do grid seja ordenado em 15 a 15 de camada a camada, dando espaço para as caixas que foram colocadas por padrão na box-sizing do 
+    próprio site.
+
+    Outra camada é a do conteúdo que delimita apenas o que está dentro da coluna, logo não interfere no tamanho externo, apenas o
+    interno do que é mostrado. 
+
+    *Apesar de ser uma forma não mais utilizada, mostra como cada camada e comportamento de display se realiza dentro deste contexto.
+*/
+
+.grid::after {
+    content: ' ';
+    display: block;
+    clear: both; 
+}
+
+/* 
+    Como descrito acima temos o pseudo elemento after que indica que após o grid o conteúdo não possui "nada", modificando o display 
+    para block e limpando as abas de ambos os lados para que nenhum elemento seja afetado pela formatação do grid.
+*/
+
+.grid {
+    padding: 15px;
+}
+
+.grid .col {
+    width: 33.33%;
+    height: 300px;
+    float: left;
+    padding: 15px;
+}
+
+.grid .col-content{
+    width: 100%;
+    height: 100%;
+    background: red;
+}

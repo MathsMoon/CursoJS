@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#heading {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#heading div {
+    width: 98%;
+    display: flex;
+    margin: 0 auto;
+}
+
+#heading .h1{
+    padding: 2px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#heading a {
+    margin: 5px;
+    color: red;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#heading a:hover{
+color: rgb(251, 234, 234);
+}

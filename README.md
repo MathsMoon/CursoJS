@@ -6,8 +6,7 @@ Meu desafio dos 100 dias, inspirado no desafio do SpaceCoders da Giulia Bordigno
 
 >“Para chegar ao conhecimento da verdade existem muitos caminhos: o primeiro é a humildade, o segundo é a humildade e o terceiro é a humildade.” (Santo Agostinho).
 
-Neste repositório está tudo que será realizado de estudo para os próximos 100 dias, com data de previsão de término no dia 14/12/2024. 
-Os Assuntos estudados fazem parte do curso do professor Luis Otávio da Udemy "JavaScript e TypeScript do básico ao avançado", são 644 aulas atualmente que envolvem uma gama de conteúdos tanto Front quanto BackEnd, na qual irei me aprofundar para estudar os temas destacados e organizar encontrar as melhores ferramentas para me tornar um bom desenvolvedor. Irei Organizar ao longo do tempo as Estruturas de Pastas do repositório de acordo com a necessidade.
+Neste repositório está tudo que será realizado de estudo para os próximos 100 dias, pretendo ir desenvolvendo e estudando ao longo do tempo sem muita cobrança, priorizando consistência para dar valor aos pequenos resultados. Os Assuntos estudados fazem parte do curso do professor Luis Otávio da Udemy "JavaScript e TypeScript do básico ao avançado", são 644 aulas atualmente que envolvem uma gama de conteúdos tanto Front quanto BackEnd, na qual irei me aprofundar para estudar os temas destacados e organizar encontrar as melhores ferramentas para me tornar um bom desenvolvedor. Irei Organizar ao longo do tempo as Estruturas de Pastas do repositório de acordo com a necessidade.
 
 ---
 
