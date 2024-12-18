@@ -4,8 +4,8 @@ Pontos importantes para serem revisados posteriormente:
 2- Organização de Grid e flexibilização.
 3- Fontes e tamanhos.
 4- @media e suas utilizações.
-5- 
-
+5- Border-radius.
+6 - Box-shadow.
 
 Comentários sobre as aulas:
 

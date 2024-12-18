@@ -1,3 +1,4 @@
+/* Padrão para o site */
 * {
     margin: 0;
     padding: 0;
@@ -7,29 +8,55 @@ html {
     scroll-behavior: smooth;
 }
 
-#heading {
-    background: rgba(0, 0, 0, 0.7);
+/* Organização do Menu */
+.menu {
+    width: 100%;
+    position: fixed;
+    background: black;
 }
 
-#heading div {
-    width: 98%;
-    display: flex;
-    margin: 0 auto;
+.menu ul {
+    list-style: none;
+    display: block;
+    max-width: 1200px;
+    max-width: 1200px;
+    padding: 0 30px;
 }
 
-#heading .h1{
-    padding: 2px;
-    font-size: 15px;
-    text-transform: uppercase;
+.menu li {
+    float: left;
 }
 
-#heading a {
-    margin: 5px;
-    color: red;
+.menu li a {
+    display: block;
+    color: white;
+    padding: 20px;
     text-decoration: none;
-    font-family: sans-serif;
+    transition: all 300ms ease-in-out;
 }
 
-#heading a:hover{
-color: rgb(251, 234, 234);
+.menu li a:hover {
+    background: #333;
 }
+
+/* Organização dos conteúdos do Site */
+.introduction h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.introduction p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* .sites {
+
+}
+
+.site-content {
+
+} */
+
+/* Organização do footer */
+/* .footer {
+    
+} */
