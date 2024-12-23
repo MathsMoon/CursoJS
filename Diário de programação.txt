@@ -11,3 +11,9 @@ neste fim de ano e só para no fim de minha vida, até lá é puro estudo e dedi
 2 - Segundo dia mais parado, como sempre nunca vai ser como eu quero ou planejo, mas consegui avançar 2/3 aulas. Ainda que não tenha sido
 avanço que eu tenha proposto para mim hoje, eu consegui me dedicar um tempo, vou buscar aumentar esse tempo e finalizar logo a seção
 de HTML/CSS.
+
+3 - terceiro dia, apesar da pausa de alguns dias, novamente tive algum avanço e fui buscando finalizar o HTML/CSS. Neste dia consegui
+ir até a aula 616, faltam ainda mais 8 aulas para terminar esta seção, a minha maior dificuldade será encontrar as adaptações para este
+meu site que estou fazendo, para alterar um pouco do Landing Page padrão, tentei mudar alguns elementos e estou um pouco preso nas 
+abas com imagens, preciso ver como posso utilizar melhor as grids, amanhã meu foco será formatar o texto e terminar essa área de membro
+deixando como opcional a continuação com as imagens.

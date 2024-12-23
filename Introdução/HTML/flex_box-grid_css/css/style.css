@@ -1,0 +1,31 @@
+/* Seção da configuração geral do site */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Seção da configuração Flex: Container + Conteúdo */
+.flex-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: yellow;
+    height: 800px;
+}
+
+.flex-content {
+    width: 100%;
+    background: red;
+    color: white;
+}
+
+/* Seção que configura individualmente cada conteúdo da grid */
+.flex-content:nth-child(2){
+    align-self: center;
+}
+
+.flex-content:nth-child(3){
+    align-self:flex-end
+}

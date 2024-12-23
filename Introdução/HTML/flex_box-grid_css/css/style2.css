@@ -1,0 +1,39 @@
+/* Seção de configuração geral do Site */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 24px;
+}
+
+p {
+    margin: 0 0 20px;    
+}
+
+.two-columns {
+    display: flex;    
+}
+
+.two-columns .col {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 30px;
+    margin: 15px;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.gallery .img {
+    flex: 1 0 20%;
+    margin: 10px;
+    height: 50px;
+    background: blue;
+}

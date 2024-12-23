@@ -1,0 +1,68 @@
+/* Seção de configuração geral da página  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+/* Seção de Configuração do container e do grid */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 150px 1fr auto; 
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: 
+    'header header'
+    'nav main'
+    'footer footer';
+}
+
+/* Seção de Configuração específica de cada área dentro do grid */
+
+.grid div:nth-child(1) {
+    grid-area: header;
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid div:nth-child(2) {
+    background-color: yellow;
+    grid-area: nav;
+    
+}
+
+.grid div:nth-child(3) {
+    background-color: aqua;
+    grid-area: main;
+}
+
+.grid div:nth-child(4) {
+    background-color: brown;
+    grid-area: footer;
+}
+
+/* Seção para configuração particular de cada dispositivo */
+@media (max-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-rows: auto; 
+        grid-template-columns: auto;
+        grid-template-areas: 
+        'header'
+        'nav'
+        'main'
+        'footer';
+    } 
+}

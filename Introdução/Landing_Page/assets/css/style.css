@@ -1,0 +1,224 @@
+/* Seção para Configuração geral do site */
+:root {
+/* 
+    No Css é possível se criar variáveis, como neste exemplo abaixo estou criando diversas variáveis que carregam cores 
+    primárias e informações de espaçamento para que eu possa mais facilmente apenas assimilar cores comuns a variáveis em todo o site.
+*/
+
+--primary-color: rgb(68, 0, 68);
+--secondary-color: crimson;
+--white-color: white;   
+--light-grey-color: #eee;
+ --gap: 3rem;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    /* Organizando o site com porcentagem para uso do relative com rem. */
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+/* Seção para configuração dos Títulos e textos da página */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 5.5rem;
+}
+
+h3 {
+    font-size: 5rem;
+}
+
+h4 {
+    font-size: 4.5rem;
+}
+
+h5 {
+    font-size: 4rem;
+}
+
+h6 {
+    font-size: 3.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Seção para configuração dos elementos da página */
+
+.main-bg {
+    background-image: url(/Introdução/Landing_Page/assets/img/main_bg.svg);
+    background-position: center center;
+    background-size: cover;
+    color: var(--white-color);
+}
+
+
+.white-bg {
+    /* Para caso precise de um fundo branco já fica possível o uso dessa classe. */
+    background: var(--white-color);
+    color: black;
+}
+
+/* Para caso precise alterar algo do container
+.main-container {
+
+} */
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
+.section {
+    /* O VH é o view port, ou seja, ele representa tudo aquilo que vc está vendo na sua tela sem rolar para cima ou para baixo.
+    Tudo que é apresentado representa 100vh, estamos definindo que cada seção ocupa a tela toda e as seções são delimitadas pelo
+    view port. */
+    min-height: 100vh;
+}
+
+/* Seção Configuração do Menu da página */
+.menu {
+    position: fixed;
+    /* top: 0;
+    left: 0;
+    right: 0; */
+    width: 100%;
+    border-bottom: 0.1rem solid var(--light-grey-color);
+    z-index: 1;
+}
+
+.menu h1 {
+    font-size: 2.3rem;
+    color: var(--primary-color);
+}
+
+.menu h1 a {
+    color: inherit;
+}
+
+.menu-spacing {
+    /* Cria um spacing final após o menu para mostrar o conteúdo abaixo do absolute */
+    height: 65px;
+}
+
+/* Sub-seção do menu para cuidar da lista a direita. */
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 2rem;
+    font-size: 1.8rem;
+    position: relative;
+}
+
+/* Sub-seção adicionando efeito ao passar o mouse sob a nav */
+.menu ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    width: 0;
+    height: 0.2rem;
+    background: var(--secondary-color);
+    transition: all 300ms ease-in-out;
+}
+
+.menu ul li a:hover::after {
+    width: 50%;
+    left: 25%;
+}
+
+/* Seção da Introdução */
+.intro-content {
+    position: relative;
+    top: -7rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--gap);
+    height: 100vh;
+    top: 0.1rem;
+}
+
+.intro-text-content, .intro-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center; 
+}
+
+.intro-text-content h2 {
+    font-size: 6rem;
+    margin-bottom: 5rem;
+    line-height: 1;
+}
+
+/* Sub-seção para configuração da imagem */
+.intro-img {
+    padding-left: 20rem;
+    justify-self: center center;
+    max-width: 10%;
+    height: auto;
+    position: relative; 
+}
+
+.img {
+    object-fit: contain;
+}
+
+/* Seção para cuidar do tópico da história */
+.history-content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Seção para os Membros Notáveis */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsivo */
+    gap: 20px; /* Espaçamento entre as células */
+  }
+  
+  .grid-item {
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  .grid-item img {
+    width: 10rem; /* A imagem ocupa toda a largura da célula */
+    height: 10rem;
+    border-radius: 50%;
+    height: auto; /* Mantém a proporção da imagem */
+  }

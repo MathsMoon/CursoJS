@@ -1,0 +1,45 @@
+/* Seção da configuração geral da Página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+/* Seção da configuração do Grid */
+.grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); /* O fragmento é uma unidade de medida que permite a aba incorporar o restante do espaço
+    sem que isso atrapalhe a organização do grid, já que ela se adequa segundo o consumo de espaço. 
+
+    O Repeat vai garantir que independente do número de colunas, elas vão ser ajustadas de acordo com a configuração, no exemplo
+    acima podemos enteder que: será repetido um número indefinido de colunas automaticamente, dependendo do tamanho da tela do 
+    dispositivo, se ela tiver o mínimo de 320px será configurada com o auto-fill para caber na tela, caso contrário tomará o 1fr
+    por padrão.
+    */
+    gap: 30px;
+}
+
+.grid div {
+    background: orange;
+    min-height: 100px;
+}
+
+/* Aplica para este elemento em específico dentro do grid as propriedades especificadas */
+.grid div:nth-child(5){
+    background: red;
+    grid-row: span 1;
+    grid-column: span 2;
+}
+
+@media (max-width: 768px){
+    .grid div:nth-child(5){
+        grid-column: span 1;
+    }   
+}
