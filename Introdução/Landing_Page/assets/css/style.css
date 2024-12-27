@@ -9,12 +9,13 @@
 --secondary-color: crimson;
 --white-color: white;   
 --light-grey-color: #eee;
- --gap: 3rem;
+--gap: 3rem;
 }
 
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -27,6 +28,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
     line-height: 1.5;
+}
+
+body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
 }
 
 /* Seção para configuração dos Títulos e textos da página */
@@ -67,7 +73,7 @@ a {
 /* Seção para configuração dos elementos da página */
 
 .main-bg {
-    background-image: url(/Introdução/Landing_Page/assets/img/main_bg.svg);
+    background-image: url("../img/main_bg.svg");
     background-position: center center;
     background-size: cover;
     color: var(--white-color);
@@ -88,7 +94,7 @@ a {
 .main-content {
     max-width: 120rem;
     margin: 0 auto;
-    padding: var(--gap);
+    padding: 5rem var(--gap);
 }
 
 .section {
@@ -164,11 +170,11 @@ a {
 /* Seção da Introdução */
 .intro-content {
     position: relative;
-    top: -7rem;
+    /* top: -7rem; */
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
-    height: 100vh;
+    min-height: 100vh;
     top: 0.1rem;
 }
 
@@ -202,23 +208,121 @@ a {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /* Seção para os Membros Notáveis */
-.grid-container {
+/* O grid quebra completamente, mas vai ser consertado na media query */
+.grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsivo */
-    gap: 20px; /* Espaçamento entre as células */
-  }
-  
-  .grid-item {
-    text-align: center; /* Centraliza o texto */
-  }
-  
-  .grid-item img {
-    width: 10rem; /* A imagem ocupa toda a largura da célula */
-    height: 10rem;
-    border-radius: 50%;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    gap: var(--gap); 
+}  
+
+.grid-content {
+    min-height: 100vh;
+    display: flex;
+    /* flex-flow: column wrap; */
+    flex-direction: column;
+    flex-wrap:nowrap;
+    justify-content: center;
+}
+
+.grid .grid-img {
+    width: 100%; /* A imagem ocupa toda a largura do item */
     height: auto; /* Mantém a proporção da imagem */
-  }
+    object-fit: cover; /* Cobre o espaço do item, cortando se necessário */
+}
+
+.grid-img img {
+    width: 36rem;
+}
+
+/* Seção para a Galeria de fotos */
+.grid-gallery-gap {
+    padding-top: 5rem;
+}
+
+.gallery-img {
+    max-width: 36rem;
+    min-height: 36rem;
+    overflow: hidden;
+}
+
+.gallery-img img {
+    width: 36rem;
+    padding-bottom: 2rem;
+    gap: var(--gap);
+    transition: all 360ms ease-in-out;
+}
+
+.gallery-img img:hover {
+    transform: translate(-3%, 3%) scale(1.2);
+}
+
+/* Seção para Contato */
+.contact-form {
+    grid-column: span 2;
+}
+
+.form-grid legend {
+    font-style: italic;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+.contact-form .form-grid {
+    display: flex;
+    flex-flow: row wrap;
+    border: none;
+    gap: var(--gap);
+}
+
+.form-group {
+    flex: 1 1 32rem;
+}
+
+.form-group label {
+    display: block;
+    padding-bottom: 1rem;
+}
+
+.form-group input, .form-group textarea {
+    border: none;
+    background: var(--white-color);
+    padding: 1.5rem 2rem;
+    width: 100%;
+}
+
+.form-group button {
+    border: 0.5rem solid var(--white-color);
+    background: none;
+    color: var(--white-color);
+    padding: 1.5rem 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.form-group button:hover {
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+
+/* Seção para o Footer da Página */
+.footer {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.footer p {
+    margin: 0;
+    padding: 3rem;
+}
+
+.footer p:hover {
+    transition: all 300ms ease-in-out;
+    color: var(--secondary-color);
+}
+/* Seção para organizar a Media Query da Página */

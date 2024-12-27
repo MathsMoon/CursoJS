@@ -17,3 +17,7 @@ ir até a aula 616, faltam ainda mais 8 aulas para terminar esta seção, a minh
 meu site que estou fazendo, para alterar um pouco do Landing Page padrão, tentei mudar alguns elementos e estou um pouco preso nas 
 abas com imagens, preciso ver como posso utilizar melhor as grids, amanhã meu foco será formatar o texto e terminar essa área de membro
 deixando como opcional a continuação com as imagens.
+
+4 - Quarto dia, continuando os trabalhos desde o dia 24 até hoje dia 26 de dezembro fiquei cuidando de organizar o site para finalizar
+a landing page. Tive um problema ao lançar para o github por conta das urls, fiz pelo atalho e não alterei para que os git pudesse 
+entender aonde levava cada aspecto, irei organizar os modelos para que no mobile esteja também redimensionado e com layout agradável.
