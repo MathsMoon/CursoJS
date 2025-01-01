@@ -21,3 +21,9 @@ deixando como opcional a continuação com as imagens.
 4 - Quarto dia, continuando os trabalhos desde o dia 24 até hoje dia 26 de dezembro fiquei cuidando de organizar o site para finalizar
 a landing page. Tive um problema ao lançar para o github por conta das urls, fiz pelo atalho e não alterei para que os git pudesse 
 entender aonde levava cada aspecto, irei organizar os modelos para que no mobile esteja também redimensionado e com layout agradável.
+
+5 - Quinto dia, estou arrumando as medias query da página e estou tendo muita dificuldade para organizar os layouts, imagens do contato 
+e agora o menu, aos poucos aprendo a lidar e a arrumar do meu jeito, mas espero logo corrigir essas falhas para construir melhores
+layouts e sites no futuro, bom que é meu primeiro projeto, está bem apesar de não ter tanto conhecimento. Então vou me dar essa colher
+de chá. A partir de 2025 tudo será feito diáriamente para tornar mais versátil o projeto e para garantir realmente uma rotina de estudos
+diferente do que foi feito nessas últimas 2 semanas que compilei em "5 dias". Enfim, feliz ano novo para mim e a todos que estão lendo.

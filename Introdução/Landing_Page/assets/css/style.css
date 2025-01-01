@@ -70,6 +70,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    text-align: justify;
+}
+
 /* Seção para configuração dos elementos da página */
 
 .main-bg {
@@ -170,7 +174,6 @@ a {
 /* Seção da Introdução */
 .intro-content {
     position: relative;
-    /* top: -7rem; */
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: var(--gap);
@@ -317,7 +320,7 @@ a {
 }
 
 .footer p {
-    margin: 0;
+    text-align: center;
     padding: 3rem;
 }
 
@@ -325,4 +328,143 @@ a {
     transition: all 300ms ease-in-out;
     color: var(--secondary-color);
 }
+
+
+/* Voltando ao Topo */
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: var(--white-color);
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid var(--primary-color);
+    border-radius: 50%;
+    color: var(--primary-color);
+    transform: rotate(-90deg);
+}
+
+/* Escondendo a barra do menu */
+.close-menu {
+    display: none;
+}
+
 /* Seção para organizar a Media Query da Página */
+@media (max-width: 800px) {
+    /* Sub-seção da Introdução */
+    .intro-content, .grid {
+        grid-template-columns: 1fr;
+        overflow: hidden;
+    }
+
+    .intro-content h2 {
+        font-size: 5rem;
+    }
+
+    .intro-text-content {
+        display: block;
+        width: 70%;
+        height: 80%;
+    }
+
+    .intro-img {
+        display: inherit;
+    }
+
+    .intro-img img {
+        display: block;
+        margin: 0 auto;
+        margin-right: 8rem;
+        max-width: 25rem;
+        height: 25rem;
+    }
+
+    /* Sub-seção do grid de fotos (galeria dos KP's) */
+
+    .grid h5 {
+        font-size: 3.5rem;
+    }
+
+    .grid p {
+        word-wrap: break-word;
+        width: 85%;
+        height: 85%;
+    }
+
+    .gallery-img {
+        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .gallery-img img {
+        width: 100%;
+    }
+
+    /* Sub-seção do formulário */
+
+    .form-grid {
+        display: block;
+        width: 100vh;
+    }
+
+    .form-group {
+        padding-left: 1rem;
+    }
+
+    /* Sub-seção para refazer o Menu para mobile */
+    .menu {
+        bottom: 0;
+        text-align: center;
+        display: none;
+    }
+
+    .menu-content {
+        height: 100vh;
+    }
+
+    .menu-content, .menu-content ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .close-menu {
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+    }
+
+    .close-menu-label::after {
+        content: '≡';
+        position: fixed;
+        z-index: 2;
+        top: 2rem;
+        right: 2rem;
+        font-size: 5rem;
+        line-height: 3rem;
+        width: 3rem;
+        height: 3rem;
+        text-align: center;
+        background: black;
+        padding: 0.5;
+        cursor: pointer;
+        color: var(--white-color);
+    }
+
+    .close-menu:checked~.menu {
+        display: block;
+    }
+
+    .close-menu:checked~.close-menu-label::after {
+        content: '×';
+        display: block;
+    }
+
+    .menu-spacing {
+        display: none;
+    }
+}

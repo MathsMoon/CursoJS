@@ -11,6 +11,10 @@
     <title>Padres Táticos Fanpage (Official 2025 Edition)</title>
 </head>
 <body class="main-bg">
+    <!-- Botão para fechar o Menu no Mobile (Gambiarra sem JavaScript) -->
+    <input type="checkbox" class="close-menu" id="close-menu" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
     <!-- Menu -->
     <aside class="menu white-bg">
         <div class="main-content menu-content">
@@ -18,7 +22,7 @@
                 Tatical Priests
             </h1>
             <nav>
-                <ul>
+                <ul onclick="getElementById('close-menu').checked = false;">
                     <li><a href="#intro">Intro</a></li>
                     <li><a href="#nossa-historia">Nossa História</a></li>
                     <li><a href="#membros">Membros</a></li>
@@ -164,7 +168,7 @@
     <!-- Seção para Contato com os Padres Táticos -->
     <section id="contato" class="section main-bg contato">
             <div class="main-content intro-content">
-                <div class="intro-text-content">
+                <div class="intro-text-content-two">
                     <h2>Quer fazer parte desta grande Família??</h2>
                     <p>Não perca mais tempo, estamos contratando novos camareiros e vendedores ambulantes para trabalhar conosco.
                         Participe agora mesmo da seleção e garanta a sua vaga, envie suas informações abaixo!!
@@ -210,5 +214,9 @@
     <footer class="white-bg footer">
         <P>Feito pela Equipe de Tecnologia da Tatical Priests Inc.</P>
     </footer>
+
+    <!-- Voltando ao Topo -->
+    <a class="back-to-top" href="#">➣</a>
+    
 </body>
 </html>
