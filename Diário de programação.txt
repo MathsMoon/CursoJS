@@ -27,3 +27,9 @@ e agora o menu, aos poucos aprendo a lidar e a arrumar do meu jeito, mas espero 
 layouts e sites no futuro, bom que é meu primeiro projeto, está bem apesar de não ter tanto conhecimento. Então vou me dar essa colher
 de chá. A partir de 2025 tudo será feito diáriamente para tornar mais versátil o projeto e para garantir realmente uma rotina de estudos
 diferente do que foi feito nessas últimas 2 semanas que compilei em "5 dias". Enfim, feliz ano novo para mim e a todos que estão lendo.
+
+6 - Sexto dia, hoje já comecei o primeiro dia do ano estudando JavaScript, abri a seção e estou me familiarizando com os comandos e a 
+estrutura lógica da linguagem, como vim do Java, conheço bem as estruturas comuns de programação e estou conseguindo assimilar bastante
+do que eu já conhecia, vou procurar me adaptar mais rapidamente para chegar aos níveis avançados do curso, tem cerca de 60/70 aulas de
+introdução a linguagem e processo lógica usando o JavaScript, pela minha experiência com o java, vou buscar consumir essas aulas. minha
+expectativa e estar na seção de funções de JavaScript até o fim dessa semana, dia: 05/01.
