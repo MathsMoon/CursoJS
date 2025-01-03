@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de String</title>
+</head>
+<body>
+    <script>
+        /*
+            Um problema que surge quando se utiliza o script no head é que o código
+            gera antes da página, o que leva a um erro no innerHTML, por isso temos 2
+            formas para resolver este problema, o primeiro é com um evento no Javascript
+            que carrega o código quando o site está 100% carregado. O segundo meio
+            para resolver este problema é simplesmente adicionando o script ao body da página,
+            desta forma o conteúdo da página e do código carregam simultaneamente evitando 
+            o erro em questão.
+        */
+
+        //Declarando a variável a ser manipulada
+        let nome = prompt("Qual seu nome completo?");
+
+        //Seção de manipulação de String:
+        document.body.innerHTML = `Seja bem-vindo <strong>${nome}</strong>.`;
+        document.body.innerHTML += `<br> seu nome tem <strong>${nome.length}</strong> caracteres.`;
+        document.body.innerHTML += `<br> seu nome todo em maiúsculo: <strong>${nome.toUpperCase()}</strong>.`;
+        document.body.innerHTML += `<br> seu nome todo em minúsculo: <strong>${nome.toLowerCase()}</strong>.`;
+        document.body.innerHTML += `<br> pegando os últimos 3 caracteres do seu nome: <strong>${nome.slice(-3, nome.length)}</strong>.`;
+        document.body.innerHTML += `<br> primeira letra do seu nome: <strong>${nome.charAt(0)}</strong>.`;
+        document.body.innerHTML += `<br> seu nome splitado: <strong>${nome.split(' ')}</strong>.`;
+    </script>
+</body>
+</html>

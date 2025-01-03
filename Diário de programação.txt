@@ -12,7 +12,7 @@ neste fim de ano e só para no fim de minha vida, até lá é puro estudo e dedi
 avanço que eu tenha proposto para mim hoje, eu consegui me dedicar um tempo, vou buscar aumentar esse tempo e finalizar logo a seção
 de HTML/CSS.
 
-3 - terceiro dia, apesar da pausa de alguns dias, novamente tive algum avanço e fui buscando finalizar o HTML/CSS. Neste dia consegui
+3 - Terceiro dia, apesar da pausa de alguns dias, novamente tive algum avanço e fui buscando finalizar o HTML/CSS. Neste dia consegui
 ir até a aula 616, faltam ainda mais 8 aulas para terminar esta seção, a minha maior dificuldade será encontrar as adaptações para este
 meu site que estou fazendo, para alterar um pouco do Landing Page padrão, tentei mudar alguns elementos e estou um pouco preso nas 
 abas com imagens, preciso ver como posso utilizar melhor as grids, amanhã meu foco será formatar o texto e terminar essa área de membro
@@ -33,3 +33,6 @@ estrutura lógica da linguagem, como vim do Java, conheço bem as estruturas com
 do que eu já conhecia, vou procurar me adaptar mais rapidamente para chegar aos níveis avançados do curso, tem cerca de 60/70 aulas de
 introdução a linguagem e processo lógica usando o JavaScript, pela minha experiência com o java, vou buscar consumir essas aulas. minha
 expectativa e estar na seção de funções de JavaScript até o fim dessa semana, dia: 05/01.
+
+7 - Sétimo dia, avancei mais algumas aulas, estou meio preso nas nuances de variável. faltam muito, vou me concentrar para finalizar 
+tudo logo.
