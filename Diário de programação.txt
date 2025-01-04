@@ -36,3 +36,11 @@ expectativa e estar na seção de funções de JavaScript até o fim dessa seman
 
 7 - Sétimo dia, avancei mais algumas aulas, estou meio preso nas nuances de variável. faltam muito, vou me concentrar para finalizar 
 tudo logo.
+
+8 - Oitavo dia, hoje tive um foco em realizar um teste, como já tenho bons conhecimentos lógicos por conta do java, vou pegar uma lista,
+de exercícios e vou ir fazendo para me adaptar ao JavaScript, acredito que eu tenha capacidade para pular muitas aulas já que o conteúdo
+não é tão diferente quando se trata do básico, mas vou firmar meu conhecimetno usando alguns exercícios. Dividindo assim minha seção de 
+estudo em 3 áreas: Projetos, exercícios e o curso em si. Criei uma pasta de projetos para testar meus projetos que ficaram presos na 
+época do java, vou criar uma interface visual e explorar os mecanismos com JavaScript para facilitar meu aprendizado, mas logo posso
+utilizar também outras tecnologias, os exercícios eu já descrevi o que são e por fim o curso, vou pular mais aulas e voltar de acordo
+com o meu julgamento do que está faltando para eu avançar em meus projetos, para não perder o foco e a atenção.
