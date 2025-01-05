@@ -3,15 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-    <title>Formulário Pobre</title>
+    <title>Exercício de Formulário</title>
 </head>
 <body>
-<form action="" method="get">
-    <p>Nome: <input type="text" name="name" id="user_name"></p>
-    <p>Sobrenome: <input type="text" name="surname" id="user_surname"></p>
-    <p>E-mail: <input type="text" name="email" id="user_email"></p>
-    <p>Telefone: <input type="text" name="phone" id="user_phone"></p>
-</form>
+    <!-- Introdução -->
+    <h1>Pequeno Formulário para cadastro</h1>
+    <p>Este pequeno formulário será responsável por guardar suas valiosas informações, prometo não vender</p>
+    <p style="font-size: 7px;">talvez eu venda</p>
+
+    <!-- Formulário em si -->
+    <form class="form">
+        <fieldset class="form-box">
+            <legend>Dados:</legend>
+            <p>Nome:<input type="text" name="name" id="user_name"></p>
+            <p>Sobrenome:<input type="text" name="surname" id="user_surname"></p>
+            <p>E-mail:<input type="text" name="email" id="user_email"></p>
+            <p>Telefone:<input type="text" name="phone" id="user_phone"></p>
+            <button class="form-button">Enviar</button>
+        </fieldset>
+    </form>
+
+    <!-- Seção que aparece os dados -->
+    <div class="receive"></div>
 </body>
 </html>

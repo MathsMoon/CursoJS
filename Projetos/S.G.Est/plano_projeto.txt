@@ -1,0 +1,28 @@
+ESTRUTURA DO SISTEMA:
+    O sistema vai funcionar com um Login comum para Administradores,Professores e Alunos.
+    Entrando no sistema cada um dos atores terá ações relativas a sua área:
+
+    - Professor: Acessa as turmas que ensina, quadro de aulas, cronograma da semana, matérias para as turmas, lista de alunos
+    com presença e nota, faltas etc..
+    - Aluno: Acessa suas notas, presença nas aulas, cronograma da semana, quadro de aulas, atividades e avaliações do período,
+    consulta materiais e pode mandar mensagem para o professor de cada matéria.
+    - Administradores: Acessam tudo das demais áreas além de poderem tem acesso a cadastros de professores, alunos dentre outras
+    informações confidenciais que são mostradas por nível (secretaria, tesouraria e diretoria).
+
+    Para começar o sistema cadastrará alunos e suas notas, professores e suas turmas, e o Diretor terá acesso total
+    das informações guardadas. Vou construir essa aplicação de fácil controle e alteração e depois jogar ela pro JDBC
+    futuramente para guardar as informações de forma mais organizada e segura. Como também vou desenvolver um diagrama
+    tornando mais fácil a visualização do sistema o que de pretendo implementar.
+
+ERROS:
+
+
+MELHORIAS:
+
+
+
+PARA ESTUDO:
+    - Preciso rever Streams para busca e fornecimento de informações com as listas
+    - Organizar os repositórios e o nome que estou dando as classes e métodos para melhorar o Clean Code
+    - Revisar os conteúdos básicos de POO para garantir uma boa legibilidade e tornar fácil a manutenção e futuramente
+    o transporte de todo o código para frameworks.

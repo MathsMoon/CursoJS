@@ -1,0 +1,47 @@
+/* Configuração geral do site */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    text-align: justify;
+}
+
+/* Organizando padrões para a estrutura do site */
+
+.main-bg {
+    background-color: black;
+}
+
+.secondary-bg {
+    background-color: white;
+}
+
+/* Organizando a seção */
+.section {
+    margin: 10rem auto;
+    max-width: 35rem;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+/* Organizando o grid */
+.grid-table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-content {
+    display: flex;
+    flex-direction: column;
+}

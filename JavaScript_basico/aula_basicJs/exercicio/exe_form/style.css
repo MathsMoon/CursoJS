@@ -1,0 +1,51 @@
+/* Organizando a Seção geral do Site */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Organizando a Seção do Formulário */
+.form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form .form-box {
+    display: flex;
+    height: 100px;
+    font-size: 1.5rem;
+}
+
+.form-box p, input {
+    margin: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.form-button {
+    height: 3rem;
+    width: 5rem;
+    align-self: center;
+    margin-right: 3rem;
+}
+
+/* Organizando a seção da Div */
+.receive p {
+    width: 30rem;
+    margin: 1rem auto;
+    font-size: 1rem;
+    background-color: #ebedee;
+    border-radius: 0.5rem;
+}

@@ -8,39 +8,44 @@ tenho grandes expectativas, então estou retornando com o foco para garantir que
 deste curso de JavaScript e TypeScript, eu estou de olho na minha formação e sei que consigo avançar e é o meu objetivo, que começa agora 
 neste fim de ano e só para no fim de minha vida, até lá é puro estudo e dedicação neste sonho que eu amo tanto.
 
-2 - Segundo dia mais parado, como sempre nunca vai ser como eu quero ou planejo, mas consegui avançar 2/3 aulas. Ainda que não tenha sido
-avanço que eu tenha proposto para mim hoje, eu consegui me dedicar um tempo, vou buscar aumentar esse tempo e finalizar logo a seção
-de HTML/CSS.
+2 - Segundo dia mais parado, como sempre, nunca vai ser como eu quero ou planejo, mas consegui avançar 2/3 aulas. Ainda que não tenha 
+sido o avanço que eu tenha proposto para mim hoje, eu consegui me dedicar um tempo, vou buscar aumentar esse tempo e finalizar logo a 
+seção de HTML/CSS.
 
-3 - Terceiro dia, apesar da pausa de alguns dias, novamente tive algum avanço e fui buscando finalizar o HTML/CSS. Neste dia consegui
-ir até a aula 616, faltam ainda mais 8 aulas para terminar esta seção, a minha maior dificuldade será encontrar as adaptações para este
-meu site que estou fazendo, para alterar um pouco do Landing Page padrão, tentei mudar alguns elementos e estou um pouco preso nas 
-abas com imagens, preciso ver como posso utilizar melhor as grids, amanhã meu foco será formatar o texto e terminar essa área de membro
-deixando como opcional a continuação com as imagens.
+3 - Terceiro dia, apesar da pausa de alguns dias, novamente tive algum avanço e fui buscando finalizar o HTML/CSS. Neste dia consegui ir
+até a aula 616, faltam ainda mais 8 aulas para terminar esta seção. A minha maior dificuldade será encontrar as adaptações para este meu
+site que estou fazendo. Para alterar um pouco da Landing Page padrão, tentei mudar alguns elementos e estou um pouco preso nas abas com 
+imagens. Preciso ver como posso utilizar melhor as grids. Amanhã meu foco será formatar o texto e terminar essa área de membro, deixando
+como opcional a continuação com as imagens.
 
-4 - Quarto dia, continuando os trabalhos desde o dia 24 até hoje dia 26 de dezembro fiquei cuidando de organizar o site para finalizar
-a landing page. Tive um problema ao lançar para o github por conta das urls, fiz pelo atalho e não alterei para que os git pudesse 
-entender aonde levava cada aspecto, irei organizar os modelos para que no mobile esteja também redimensionado e com layout agradável.
+4 - Quarto dia, continuando os trabalhos desde o dia 24 até hoje, dia 26 de dezembro, fiquei cuidando de organizar o site para finalizar
+a landing page. Tive um problema ao lançar para o GitHub por conta das URLs, fiz pelo atalho e não alterei para que o Git pudesse 
+entender aonde levava cada aspecto. Irei organizar os modelos para que no mobile esteja também redimensionado e com layout agradável.
 
 5 - Quinto dia, estou arrumando as medias query da página e estou tendo muita dificuldade para organizar os layouts, imagens do contato 
-e agora o menu, aos poucos aprendo a lidar e a arrumar do meu jeito, mas espero logo corrigir essas falhas para construir melhores
-layouts e sites no futuro, bom que é meu primeiro projeto, está bem apesar de não ter tanto conhecimento. Então vou me dar essa colher
-de chá. A partir de 2025 tudo será feito diáriamente para tornar mais versátil o projeto e para garantir realmente uma rotina de estudos
-diferente do que foi feito nessas últimas 2 semanas que compilei em "5 dias". Enfim, feliz ano novo para mim e a todos que estão lendo.
+e agora o menu, aos poucos aprendo a lidar e a arrumar do meu jeito, mas espero logo corrigir essas falhas para construir melhores 
+layouts e sites no futuro, bom que é meu primeiro projeto, está bem apesar de não ter tanto conhecimento. Então, vou me dar essa colher 
+de chá. A partir de 2025, tudo será feito diariamente para tornar mais versátil o projeto e para garantir realmente uma rotina de 
+estudos, diferente do que foi feito nessas últimas 2 semanas que compilei em "5 dias". Enfim, feliz ano novo para mim e para todos que 
+estão lendo.
 
 6 - Sexto dia, hoje já comecei o primeiro dia do ano estudando JavaScript, abri a seção e estou me familiarizando com os comandos e a 
-estrutura lógica da linguagem, como vim do Java, conheço bem as estruturas comuns de programação e estou conseguindo assimilar bastante
-do que eu já conhecia, vou procurar me adaptar mais rapidamente para chegar aos níveis avançados do curso, tem cerca de 60/70 aulas de
-introdução a linguagem e processo lógica usando o JavaScript, pela minha experiência com o java, vou buscar consumir essas aulas. minha
-expectativa e estar na seção de funções de JavaScript até o fim dessa semana, dia: 05/01.
+estrutura lógica da linguagem, como vim do Java, conheço bem as estruturas comuns de programação e estou conseguindo assimilar bastante 
+do que eu já conhecia, vou procurar me adaptar mais rapidamente para chegar aos níveis avançados do curso, que tem cerca de 60/70 aulas 
+introdução à linguagem e processo lógico usando o JavaScript. Pela minha experiência com o Java, vou buscar consumir essas aulas a 
+expectativa é estar na seção de funções de JavaScript até o fim dessa semana, dia: 05/01.
 
-7 - Sétimo dia, avancei mais algumas aulas, estou meio preso nas nuances de variável. faltam muito, vou me concentrar para finalizar 
+7 - Sétimo dia, avancei mais algumas aulas, estou meio preso nas nuances de variável. Faltam muito, vou me concentrar para finalizar 
 tudo logo.
 
-8 - Oitavo dia, hoje tive um foco em realizar um teste, como já tenho bons conhecimentos lógicos por conta do java, vou pegar uma lista,
-de exercícios e vou ir fazendo para me adaptar ao JavaScript, acredito que eu tenha capacidade para pular muitas aulas já que o conteúdo
-não é tão diferente quando se trata do básico, mas vou firmar meu conhecimetno usando alguns exercícios. Dividindo assim minha seção de 
-estudo em 3 áreas: Projetos, exercícios e o curso em si. Criei uma pasta de projetos para testar meus projetos que ficaram presos na 
-época do java, vou criar uma interface visual e explorar os mecanismos com JavaScript para facilitar meu aprendizado, mas logo posso
-utilizar também outras tecnologias, os exercícios eu já descrevi o que são e por fim o curso, vou pular mais aulas e voltar de acordo
+8 - Oitavo dia, hoje tive um foco em realizar um teste, como já tenho bons conhecimentos lógicos por conta do java, vou pegar uma lista
+de exercícios e vou fazendo para me adaptar ao JavaScript, acredito que eu tenha capacidade para pular muitas aulas já que o conteúdo
+Não é tão diferente quando se trata do básico, mas vou firmar meu conhecimento usando alguns exercícios. Dividindo assim minha seção de 
+Estudo em três áreas: Projetos, exercícios e o curso em si. Criei uma pasta de projetos para testar meus projetos que ficaram presos na
+época do Java, vou criar uma interface visual e explorar os mecanismos com JavaScript para facilitar meu aprendizado, mas logo posso 
+utilizar também outras tecnologias, os exercícios eu já descrevi o que são e, por fim, o curso, vou pular mais aulas e voltar de acordo 
 com o meu julgamento do que está faltando para eu avançar em meus projetos, para não perder o foco e a atenção.
+
+9 - Nono dia, consegui avançar bastante e concluir mais uma seção, faltam menos de 30 aulas, mas ainda preciso terminar o exercício do 
+site IMC. Amanhã eu continuo buscando terminar o exercício, o maior problema é que eu ainda não entendi como o JavaScript pega as 
+informações e disponibiliza, mas vou refazer amanhã e com isso eu já avanço 8 aulas.

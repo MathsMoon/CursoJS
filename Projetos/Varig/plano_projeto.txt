@@ -1,0 +1,21 @@
+Resumo do Projeto:
+    Vou criar uma interface gráfica usando o JOptionPane para testar os limites dessa função, será um hub de pesquisa
+    de vôos realizados pela Varig no período de 3 meses (vou arrumar uns 30 vôos para praticar Banco de dados também),
+    o cliente poderá consultar locais de partida de acordo com a data e o horário disponíveis dos vôos e realizando um
+    cadastro poderá escolher um assento no avião que estiver disponíveis (vou disponibilizar 3/4 aviões clássicos da varig
+    para disponibilizar os assentos possíveis), após o cadastro e efetuação da compra é gerado um ticket único
+    para o passageiro contendo suas informações e do vôo solicitado, em caso de falha ou erro pode recorrer ao suporte
+    que atenderá o pedido pelo ID e a documentação original do cliente para troca de vôo ou cancelamento do book da
+    passagem. Vou disponibilizar na pasta de mídias deste projeto alguns diagramas de como vai ser todo o processo de
+    interação entre as informações e como elas irão aparacer para o Administrador da página (e se possível posso depois
+    contruir um ambiente web para hospedar esta aplicação, que por hora será feita inteiramente para funcionar ou no Option
+    pane ou via terminal).
+
+ERROS:
+
+
+MELHORIAS:
+
+
+
+PARA ESTUDO:
