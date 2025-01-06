@@ -7,8 +7,8 @@
     <script src="script.js"></script>
     <title>IMC Site</title>
 </head>
-<body class="main-bg">
-    <section class="secondary-bg section">
+<body>
+    <section class="section">
         <h1>TABELA IMC</h1>
         <div class="grid-table">
             <div class="grid-content">
@@ -32,13 +32,16 @@
                 </p>
             </div>
         </div>
-        <div class="div-display">
+        <form action="/" class="form" method="post">
             <h1>Calcule seu IMC</h1>
-            <p>Peso: <input type="text" name="weight" id="weight"></p>
-            <p>Altura: <input type="text" name="height" id="height"></p>
+            <label for="peso">Peso</label>
+            <input type="text" name="weight" id="weight">
+            <label for="altura">Altura</label>
+            <input type="text" name="height" id="height">
             <button type="submit">Calcular</button>
-            <p class="showing-result"></p>
-        </div>
+            <!-- <button type="reset">Reseta</button> -->
+            <div class="showing-result"></div>
+        </form>
     </section>
 </body>
 </html>

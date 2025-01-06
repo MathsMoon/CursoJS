@@ -49,3 +49,8 @@ com o meu julgamento do que está faltando para eu avançar em meus projetos, pa
 9 - Nono dia, consegui avançar bastante e concluir mais uma seção, faltam menos de 30 aulas, mas ainda preciso terminar o exercício do 
 site IMC. Amanhã eu continuo buscando terminar o exercício, o maior problema é que eu ainda não entendi como o JavaScript pega as 
 informações e disponibiliza, mas vou refazer amanhã e com isso eu já avanço 8 aulas.
+
+10 - Décimo dia, simplesmente não consigo avançar e não faço ideia o motivo. Algum problema surgiu quando estava desenvolvendo que ao 
+ser enviada, a mensagem chegando no sending_message não consegue se tornar um parágrafo e vira um elemento indefinido, mas todas as 
+demais mensagens conseguem tranquilamente passarem. Eu me odeio, eu abri a função em uma parte do escopo por achar necessário para a 
+função rodar, o que culminou? A função enviava dados indefinidos como resposta e bugava a aplicação.

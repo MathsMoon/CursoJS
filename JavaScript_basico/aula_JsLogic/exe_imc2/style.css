@@ -1,3 +1,9 @@
+/* Variáveis Globais */
+:root {
+    --primary-color: rgb(17, 86, 102);
+    --primary-color-darker: rgb(9, 48, 56);
+}
+
 /* Configuração geral do site */
 * {
     padding: 0;
@@ -5,43 +11,95 @@
     box-sizing: border-box;
 }
 
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+}
+
 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 p {
     text-align: justify;
 }
 
-/* Organizando padrões para a estrutura do site */
-
-.main-bg {
-    background-color: black;
-}
-
-.secondary-bg {
-    background-color: white;
-}
-
 /* Organizando a seção */
 .section {
-    margin: 10rem auto;
-    max-width: 35rem;
     height: auto;
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Organizando o Grid */
+/* .grid-table {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+} */
+
+/* Organizando o formulário */
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form label {
+    padding-top: 1rem;
+    font-size: 1.3rem;
+}
+
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+/* Organizando a seção de resposta */
+.showing-result {
+    padding: 1rem;
+}
+
+.positive-result, .negative-result {
+    background-color: rgb(109, 255, 182);
+    margin: 0 auto;
+    width: 100%;
+    padding: 0.5rem;
     border-radius: 0.5rem;
 }
 
-/* Organizando o grid */
-.grid-table {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.negative-result {
+    background: rgb(255, 150, 150);
 }
 
-.grid-content {
-    display: flex;
-    flex-direction: column;
-}
+/* .reset {
+
+} */
