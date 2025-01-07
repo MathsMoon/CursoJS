@@ -11,7 +11,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     margin: 0;
     padding: 0;
@@ -19,15 +18,16 @@ body {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 p {
     text-align: justify;
+    font-size: 1.3rem;
 }
 
 /* Organizando a seção */
@@ -40,16 +40,22 @@ p {
     border-radius: 10px;
 }
 
-/* Organizando o Grid */
-/* .grid-table {
-    max-width: 640px;
-    margin: 50px auto;
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-} */
+section h1 {
+    font-size: 2.5rem;
+}
+
+/* Organizando a div */
+.div {
+    margin-top: 1rem;
+}
 
 /* Organizando o formulário */
+.form-h1 {
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
 form button {
   border: none;
   background: var(--primary-color);
@@ -61,23 +67,22 @@ form button {
   margin-top: 30px;
 }
 
-form button:hover {
+.form button:hover {
   background: var(--primary-color-darker);
 }
 
-form input, form label, form button {
+.form input, form label, form button {
     display: block;
     width: 100%;
     margin-bottom: 10px;
 }
 
-form label {
-    padding-top: 1rem;
-    font-size: 1.3rem;
+.form label {
+    padding-top: 0.5rem;
+    font-size: 1.6rem;
 }
 
-
-form input {
+.form input {
     font-size: 24px;
     height: 50px;
     padding: 0 20px;
@@ -94,12 +99,9 @@ form input {
     width: 100%;
     padding: 0.5rem;
     border-radius: 0.5rem;
+    font-size: 1.4rem;
 }
 
 .negative-result {
     background: rgb(255, 150, 150);
 }
-
-/* .reset {
-
-} */

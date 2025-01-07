@@ -1,0 +1,20 @@
+/* Seção configuração geral do Site */
+:root {
+    --primary-color: rgb(17, 86, 102);
+    --secondary-color: white;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+/* Organizando a Seção */
+
+.container {
+    text-align: center;
+    align-content: center;
+    background-color: var(--secondary-color);
+    margin: 10rem auto;
+    max-width: 50rem;
+    min-height: 10rem;
+}

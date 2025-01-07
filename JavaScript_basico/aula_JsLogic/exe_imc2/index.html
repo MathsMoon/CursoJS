@@ -8,38 +8,35 @@
     <title>IMC Site</title>
 </head>
 <body>
+    <!-- Seção Introdutória -->
     <section class="section">
         <h1>TABELA IMC</h1>
-        <div class="grid-table">
-            <div class="grid-content">
-                <h2>IMC</h2>
-                <p>
-                    Menos do que 18,5<br>
-                    Entre 18,5 e 24,9<br>
-                    Entre 25 e 29,9<br>
-                    Entre 30 e 34,9<br>
-                    Entre 35 e 39,9<br>
-                    Mais do que 40
-                </p>
-                <h2>Resultado</h2>
-                <p>
-                    Abaixo do Peso<br>
-                    Peso normal<br>
-                    Sobrepeso<br>
-                    Obesidade grau 1<br>
-                    Obesidade grau 2<br>
-                    Obesidade grau 3
+        <hr>
+            <div class="div">
+                <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o 
+                    peso ideal de cada pessoa. O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura 
+                    elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.
+                    
+                    <br>Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo e compare com os índices da tabela. 
+                    Importante: siga os exemplos e use pontos como separadores.
                 </p>
             </div>
-        </div>
+
+            <!-- Seção do Formulário -->
         <form action="/" class="form" method="post">
-            <h1>Calcule seu IMC</h1>
-            <label for="peso">Peso</label>
+            <h1 class="form-h1">Calcule seu IMC</h1>
+
+            <!-- Seção de inserção do Formulário -->
+            <label for="peso">Peso:</label>
             <input type="text" name="weight" id="weight">
-            <label for="altura">Altura</label>
+            <label for="altura">Altura:</label>
             <input type="text" name="height" id="height">
+
+            <!-- Seção dos botões -->
             <button type="submit">Calcular</button>
-            <!-- <button type="reset">Reseta</button> -->
+            <button type="reset">Reseta</button>
+
+            <!-- Seção dos Resultados -->
             <div class="showing-result"></div>
         </form>
     </section>

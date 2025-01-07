@@ -54,3 +54,8 @@ informações e disponibiliza, mas vou refazer amanhã e com isso eu já avanço
 ser enviada, a mensagem chegando no sending_message não consegue se tornar um parágrafo e vira um elemento indefinido, mas todas as 
 demais mensagens conseguem tranquilamente passarem. Eu me odeio, eu abri a função em uma parte do escopo por achar necessário para a 
 função rodar, o que culminou? A função enviava dados indefinidos como resposta e bugava a aplicação.
+
+11 - Décimo primeiro dia, continuando as aulas, hoje não tive tantos avanços. Estou resolvendo uma atividade que o professor passou e
+por hora ainda não encontrei as soluções que eu preciso, me falta rever ainda como melhor estruturar o CSS, as funções do Javascript, 
+e rever mais algumas áreas que ainda não me são claras na estrutura da linguagem, vou me concentrar para seguir nas atividades e praticar
+mais. Vou enviar logo as alterações que fiz e "finalizar" por hoje, no fim preciso só de um pouco mais de tempo para ir me acostumando.

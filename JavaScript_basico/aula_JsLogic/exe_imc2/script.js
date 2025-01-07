@@ -26,17 +26,22 @@ window.onload = function wainting_Site_Load() {
         }
 
         //Cálculo IMC:
-        const imc_result = weight / height**2;
+        const imc_result = getIMC(weight, height);
 
         //Condições para a classificação do IMC:
         const imc_level = verify_Classification(imc_result);
 
         //Construção da mensagem:
-        const msg = `Seu IMC é ${imc_result} e sua classificação: ${imc_level}`;
+        const msg = `Seu IMC é: ${imc_result}, sua classificação: ${imc_level}.`;
         sending_message(msg, true);
     }
 
     /* Funções usadas dentro do comportamento: */
+
+    function getIMC(weight, height){
+        let result = weight / height**2
+        return result.toFixed(2);
+    }
 
     //Função que verifica a classificação da Tabela IMC:
     function verify_Classification(imc){
@@ -80,8 +85,11 @@ window.onload = function wainting_Site_Load() {
     //Rescrevendo o evento de chamada com a função do wait_submit:
     imc_form.addEventListener('submit', wait_submit);
 
-    //Apagando as informações com evento de reset:
-    // function reset(event) {
-    //     imc_form.
-    // }
+    //Rescrevendo o evento de reset com a função reset:
+    imc_form.addEventListener('reset', reset);
+
+    //Apagando as informações mostradas com evento de reset:
+    function reset() {
+        imc_showing.innerHTML = '';
+    }
 }
