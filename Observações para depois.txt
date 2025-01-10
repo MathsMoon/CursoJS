@@ -6,6 +6,7 @@ Pontos importantes para serem revisados posteriormente:
 4- @media e suas utilizações.
 5- Border-radius.
 6 - Box-shadow.
+7 - NodeList (Javascript).
 
 Comentários sobre as aulas:
 

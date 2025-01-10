@@ -1,30 +1,28 @@
 //Criando a guia dos elementos com a lista:
 const elements =[ 
-    {tag: 'p', text: 'frase 1'},
-    {tag: 'div', text: 'frase 2'},
-    {tag: 'footer', text: 'frase 3'},
-    {tag: 'section', text: 'frase 4'}
+    {tag: 'p', text: 'Este trecho é um parágrafo'},
+    {tag: 'div', text: 'Este trecho é uma divisória'},
+    {tag: 'footer', text: 'Este trecho é um rodapé'},
+    {tag: 'section', text: 'Este trecho é uma seção'}
 ];
 
-//Variável que manipula o HTML
-const section = document.querySelector('.container');
-
-//Função principal do escopo:
-function main(){
-    for_elements();
-}
+//Seção das variáveis que manipulam o HTML:
+const div = document.querySelector('.result');
 
 //Função que percorre os elementos:
 function for_elements(){
-    for(i = 0; i < elements.length; i++){
-        console.log(elements[i]);
+    for(let i = 0; i < elements.length; i++){
+        let {tag, text} = elements[i]; //Desestruturei o array de objetos para que a cada iteração, a tag e text receba o valor do obj.
+        let tags = document.createElement(tag);
+        insert_html(tags, text);
     }
 }
 
 //Função que insere o texto no HTML:
-function insert_html(){
-    
+function insert_html(tag, text){
+    tag.innerHTML = text;
+    div.appendChild(tag); //
 }
 
-//Rodando a função main:
-main();
+//Rodando a função principal:
+for_elements();

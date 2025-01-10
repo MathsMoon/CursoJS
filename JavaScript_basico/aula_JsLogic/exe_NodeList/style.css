@@ -1,4 +1,4 @@
-/* Seção para variáveis Globais: */
+/* Seção de variáveis globais */
 :root {
     --primary-color: rgb(17, 86, 102);
     --secondary-color: white;
@@ -14,17 +14,18 @@ body {
     background-color: var(--secondary-color);
     width: 40%;
     margin: 10rem auto;
-    min-height: 10rem;
+    min-height: 15rem;
     text-align: center;
-    border-radius: 0.7rem;
+    align-items: center;
 }
 
 .container h1 {
-    padding-top: 1rem;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
-.result {
+/* Sub-seção do NodList */
+.articles {
+    font-size: 1.5rem;
     text-align: justify;
-    font-size: 2rem;
+    padding: 10px;
 }
