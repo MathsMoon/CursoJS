@@ -10,5 +10,6 @@ const body_bgColor = body_style.backgroundColor;
 
 //Manipulando os atributos do NodeList:
 for (let p of ps) {
-    //Reescreva cada p para que contenha background color do body.
+    p.style.backgroundColor = body_bgColor; //adicionando o background-color aos p's.
+    p.style.color = "white"; //adicionando a cor branca aos p's.
 }
