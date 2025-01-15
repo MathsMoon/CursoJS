@@ -1,0 +1,19 @@
+Semana 13-20:
+- Seção de lógica de programação em Javascript (31/33).
+- Seção de funções avançadas (0/13).
+- Seção de estudo aprofundado em arrays(0/8).
+- Seção de Objetos e prototypes para Javascript(0/13).
+- Seção de Promgração Orientada a Objeto (0/6).
+- Seção de Assincronia no Javascript (0/6).
+- Seção de Tooling e ES6 Modules no Javascript (0/9).
+
+Semana 20-27:
+- Seção de Node (0/25).
+- Seção de Projeto Agenda (0/12).
+- Seção de Deploy de Aplicação (0/8).
+- Seção de API REST (0/21).
+- Seção de React componentes de classe (0/13).
+- Seção de React Redux e Hooks (0/35).
+
+semana 27-03/04:
+- Seção de Node (0/25).

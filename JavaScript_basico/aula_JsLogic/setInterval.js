@@ -15,14 +15,16 @@ Usamos então uma função anônima dentro do setInterval para realizar essa cha
 
 Para pausar o retorno do setInterval, já que ele apenas recebe de quanto em quanto tempo acionar, e não tem um limite
 usamos o setTimeOut para ser chamado uma única vez e encerrar o processo do setInterval.
+
+O setTimeOut funciona executando uma determinada linha de código com tempo pré-determinado na chamada desta função.
 */
 
-//Definindo a função anônima de chamada e o intervalo para cada chamada. 1000 -> 1s
-setInterval(function () {
+//Definindo uma variável que vai receber o set via função anônima de chamada, junto ao intervalo para cada chamada. 1000 -> 1s
+const timer = setInterval(function () {
     console.log(return_HourNow());
 }, 1000);
 
-//Definindo o setTimeOut para parar toda a chamada do setInterval:
+//Definindo o setTimeOut para encerrar toda a chamada do setInterval. 5000 -> 5s
 setTimeout(function () {
-    
-}, );
+    clearInterval(timer); //Limpando o set inserido no timer.
+}, 5000);
