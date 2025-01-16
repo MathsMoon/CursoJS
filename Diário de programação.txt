@@ -88,3 +88,7 @@ portanto os próximos dias preciso consumir o suficiente para chegar nesta etapa
 19 - Décimo nono dia, só tive tempo faltando 1 hora para acabar o dia, vou realmente me dedicar de madrugada para chegar logo a seção 
 de node. Mas aproveitando que eu preciso organizar, irei criar mais um arquivo para metas e vou organizando como quero que vá se desen-
 volvendo ao longo dos próximos dias, já que estou para chegar em 20% do desafio dos 100 dias.
+
+20 - Vigésimo dia, 20% do desafio chegou ao fim e hoje em compensação, pude me dedicar em cpntinuar a atividade do temporizador. Ainda
+me falta buscar uma melhor lógica para controlar o número de vezes que a função do start poderia acrescentar a variável, por hora é 
+1/4 de vitória.

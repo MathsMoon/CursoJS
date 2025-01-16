@@ -1,0 +1,50 @@
+/* Seção de configuração das variáveis globais: */
+:root {
+    --primary-color:  rgb(17, 86, 102);
+    --secondary-color: white;
+}
+
+/* Seção de configuração geral da página: */
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+h1 {
+    font-size: 2.5rem;
+    padding-top: 2.5rem;
+}
+
+/* Seção de configuração do container: */
+.container {
+    background-color: var(--secondary-color);
+    width: 40%;
+    margin: 10rem auto;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 3rem;
+}
+
+/* Seção de visualização do Temporizador: */
+.timer p {
+    margin-block-start: 5rem;
+}
+
+.timer {
+    font-size: 5rem;
+}
+
+.buttons button {
+    min-width: 5rem;
+    height: 3rem;
+    margin: 0.2rem;
+    margin-bottom: 4rem;
+}
+
+/* Seção de configuração para as respostas: */

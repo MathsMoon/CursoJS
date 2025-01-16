@@ -1,19 +1,52 @@
-Semana 13-20:
+Semana 13-20: 57 aulas
 - Seção de lógica de programação em Javascript (31/33).
 - Seção de funções avançadas (0/13).
 - Seção de estudo aprofundado em arrays(0/8).
 - Seção de Objetos e prototypes para Javascript(0/13).
-- Seção de Promgração Orientada a Objeto (0/6).
+- Seção de Programação Orientada a Objeto (0/6).
 - Seção de Assincronia no Javascript (0/6).
 - Seção de Tooling e ES6 Modules no Javascript (0/9).
 
-Semana 20-27:
+Semana 20-27: 79 aulas
 - Seção de Node (0/25).
 - Seção de Projeto Agenda (0/12).
 - Seção de Deploy de Aplicação (0/8).
 - Seção de API REST (0/21).
 - Seção de React componentes de classe (0/13).
-- Seção de React Redux e Hooks (0/35).
 
-semana 27-03/04:
-- Seção de Node (0/25).
+Semana 27-03/02:  68 Aulas
+- Seção de React Redux e Hooks (0/35).
+- Seção de React Router DOM (0/12).
+- Seção de Regex (0/12).
+- Seção de Instalação TypeScript (0/9).
+
+Semana 03-10: 65 Aulas
+- Seção de Tipos básicos Ts (0/22).
+- Seção de POO com TypeScript (0/19).
+- Seção de Tipos avançados (0/6).
+- Seção de generics no TypeScript (0/10).
+- Seção de Decorators no Ts (0/8).
+
+Semana 10-17: 80 aulas
+- Seção de Namespace e Modules no Ts (0/6).
+- Seção de princípios S.O.L.I.D com TS (0/12).
+- Seção de Pomodoro APP (0/13).
+- Seção de Desing Patterns e GOF com TS (0/49).
+
+Semana 17-24: 59 aulas
+- Seção de NextJs e API REST (0/54).
+- Seção de deploy NextJs (0/5).
+
+Semana 24-03/03: 79 aulas.
+- Seção de dados MYSQL e MariaDB (0/47).
+- Seção Knex.js SQL query (0/32)
+
+/*  OBSERVAÇÃO:
+Apartir desta semana tudo será opcional pelo motivo de que o curso já ter terminado
+portanto as semanas finais do desafio podem tanto serem utilizadas para terminar conteúdos
+pendentes das semanas acima, como pode ser utilizada para estudar os conteúdos opcionais
+para continuar o estudo diário. 
+*/
+
+(OPCIONAL)
+Semana 03-10: 
