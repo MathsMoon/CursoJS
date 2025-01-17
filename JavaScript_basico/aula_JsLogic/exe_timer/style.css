@@ -48,3 +48,7 @@ h1 {
 }
 
 /* Seção de configuração para as respostas: */
+
+.paused {
+    color: red;
+}

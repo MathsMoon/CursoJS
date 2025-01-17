@@ -3,37 +3,37 @@
 /* Seção de Variáveis Globais */
 const timer = document.querySelector('.timer');
 const start = document.querySelector('.start');
-const pause = document.querySelector('.pause');
-const restart = document.querySelector('.restart');
 let seconds = 0;
 let clock;
 
 /* Seção de eventos */
-start.addEventListener('click', function (event){
-    /* OBS: 
-        Preciso definir uma forma de fazer com que a cada click em pausar ou reset. 
-        O valor deste P continue sendo "Iniciar", ou vire "Retomar" caso o botão de 
-        pausar, especificamente tenha sido acionado.
-    */
-    
-    timer_Start();
-    start.textContent = 'Iniciar'; 
-});
 
-pause.addEventListener('click', function (event){
-    stop_Timer();
-    start.textContent = 'Retomar';
-});
+document.addEventListener('click', function(e){
+    //criando uma variável que receberá o elemento do evento clicado.
+    const element = e.target;
 
-restart.addEventListener('click', function (event){
-    timer_Reset();
-    start.textContent = 'Iniciar'; //Reset do botão de iniciar caso não tenha sido feito.
+    //Condições para que a cada botão clicado (especificado pela classe que define ele) execute o seu comportamento padrão.
+    if(element.classList.contains('start')){
+        //Chamada da função que inicia o click:
+        timer_Start();
+        start.textContent = 'Iniciar'; 
+    }
+    if(element.classList.contains('pause')){
+        stop_Timer();
+        start.textContent = 'Retomar';
+    }
+    if(element.classList.contains('restart')){
+        timer_Reset();
+        start.textContent = 'Iniciar'; //Reset do botão de iniciar caso não tenha sido feito.
+    }
 });
-
 
 /* Seção de Funções */
 function getTimeFromSeconds(seconds){ //Formatando os segundo passados para que retorne no padrão 00:00
+    //pegando a data e colocando ela em segundos através de uma multiplicação
     const data = new Date(seconds * 1000);
+
+    //Retornando a formatação no estilo padrão gmt (para que fique 00:00:00) com contador em 24 horas.
     return data.toLocaleTimeString('pt-BR', {
         hour12:false,
         timeZone: 'GMT'
@@ -41,19 +41,33 @@ function getTimeFromSeconds(seconds){ //Formatando os segundo passados para que 
 }
 
 function timer_Start(){ //Iniciando o Timer
+    //Previne do start incrementar infinitamente seconds a mais na variável fechando todos os processos anteriores
+    clearInterval(clock);
+
+    //Removemos a classe paused que deixa o timer em vermelho, que é usado somente no pause.
+    timer.classList.remove('paused');
+
+    //Iniciando o relógio do temporizador através de uma incrementação a variável de segundos.
     clock = setInterval(function() {
         seconds++;
-        timer.innerHTML = getTimeFromSeconds(seconds);
-    }, 1000)
+        timer.innerHTML = getTimeFromSeconds(seconds); //adicionando ao parágrafo
+    }, 1000);
 }
 
 function stop_Timer(){ //Parando o Timer
-    clearInterval(clock);
+    timer.classList.add('paused');
+    clearInterval(clock); //limpa o intervalo e pausa o temporizador no segundo que foi salvo a última alteração em sec.
 }
 
 function timer_Reset() { //Resetando o Temporizador
+    //Limpando o intervalo setado
     clearInterval(clock);
-    timer.innerHTML = '00:00:00';
+
+    //Removemos a classe paused que deixa o timer em vermelho, que é usado somente no pause.
+    timer.classList.remove('paused');
+
+    seconds = 0; //toda reinicialização o contador vai para o zero, para que possa recomeçar a contagem
+    timer.innerHTML = '00:00:00'; //Voltando o parágrafo ao padrão 00:00:00.
 }
 
 /*  PASSO A PASSO DO QUE FOI FEITO:
@@ -71,6 +85,9 @@ comportamento de acordo com o que foi predeterminado. Para cada evento adicionad
 ter de acordo com a interação e definir os limites dela, para que ao ser sujeita a uma operação maior, possa voltar ao comportamento
 padrão. Ex: Ao clicar em reiniciar, todos os botões e valores são resetados, então quaisquer informações que foram acrescentadas do 
 que antes era padrão, deixarão de existir e o site voltará ao seu "Modelo original".
+
+Pode-se utilizar uma única estrutura de evento para que a página não seja sobrecarregada com o comando de reação aos eventos de click
+assim pegamos o click e verificamos qual ação é pelo que contém no objeto clicado, assim reduzimos o número de eventos.
 
 A seção de funções irão garantir que cada parte do temporizador terá uma definição de comportamento, que ocorrerá da seguinte forma:
 

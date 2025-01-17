@@ -92,3 +92,7 @@ volvendo ao longo dos próximos dias, já que estou para chegar em 20% do desafi
 20 - Vigésimo dia, 20% do desafio chegou ao fim e hoje em compensação, pude me dedicar em cpntinuar a atividade do temporizador. Ainda
 me falta buscar uma melhor lógica para controlar o número de vezes que a função do start poderia acrescentar a variável, por hora é 
 1/4 de vitória.
+
+21 - Vigésimo primeiro dia, terminei a atividade de Timer e adicionei a pasta de exercícios para completar mais e praticar a minha lógica
+vou me concentrar em rever alguns conteúdos importantes para os meus futuros projetos para que dentro do próximo mês e até a metade deste
+desafio eu já consiga ter uma grande experiência em desenvolvimento para partir para as próximas etapas.
