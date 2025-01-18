@@ -1,0 +1,47 @@
+/* Seção das variáveis Globais */
+:root {
+    --primary-color:  rgb(17, 86, 102);
+    --secondary-color: white;
+}
+
+/* Seção de Organização do site */
+
+body {
+    background-color: var(--primary-color);
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+/* Seção que organiza o Container */
+.container {
+    background-color: var(--secondary-color);
+    width: 40%;
+    height: 40rem;
+    margin: 10rem auto;
+    text-align: center;
+}
+
+.container h1 {
+    padding-top: 2rem;
+}
+
+/* Sub-seção do div */
+.div-sub {
+    margin: 0 auto;
+    height: 10rem;
+    width: 80%;
+    border: 2px solid red;
+}
+
+/* Organizando as respostas da div */
+
+.checkbox {
+    text-decoration: line-through;
+}
+
