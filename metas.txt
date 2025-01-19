@@ -1,5 +1,5 @@
 Semana 13-20: 57 aulas
-- Seção de lógica de programação em Javascript (31/33).
+- Seção de lógica de programação em Javascript (33/33).
 - Seção de funções avançadas (0/13).
 - Seção de estudo aprofundado em arrays(0/8).
 - Seção de Objetos e prototypes para Javascript(0/13).
