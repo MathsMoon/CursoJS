@@ -30,17 +30,3 @@ p {
 .container h1 {
     padding-top: 2rem;
 }
-
-/* Sub-seção do div */
-.div-sub {
-    margin: 0 auto;
-    height: 10rem;
-    width: 80%;
-    border: 2px solid red;
-}
-
-/* Organizando as respostas da div */
-
-.checkbox {
-    text-decoration: line-through;
-}
