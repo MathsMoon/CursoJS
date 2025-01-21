@@ -22,9 +22,11 @@ p {
 .container {
     background-color: var(--secondary-color);
     width: 40%;
-    height: 40rem;
+    min-height: 15rem;
     margin: 10rem auto;
     text-align: center;
+    border-radius: 1rem;
+    padding: 1px;
 }
 
 .container h1 {
