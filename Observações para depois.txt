@@ -8,6 +8,7 @@ Pontos importantes para serem revisados posteriormente:
 6 - Box-shadow.
 7 - NodeList (Javascript).
 8 - Tipos de Erro (Javascript).
+9 - Function Express.
 
 Comentários sobre as aulas:
 
