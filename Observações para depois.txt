@@ -9,6 +9,7 @@ Pontos importantes para serem revisados posteriormente:
 7 - NodeList (Javascript).
 8 - Tipos de Erro (Javascript).
 9 - Function Express.
+10 - Immediately Invoked Function Express (IIEF).
 
 Comentários sobre as aulas:
 
