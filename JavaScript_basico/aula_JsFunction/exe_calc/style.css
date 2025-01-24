@@ -1,0 +1,51 @@
+/* Configuração das variáveis globais */
+:root {
+    --primary-color:  rgb(17, 86, 102);
+    --secondary-color: white;
+}
+
+/* Configuração geral do site */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+/* Configuração do container */
+.container {
+    background-color: var(--secondary-color);
+    width: 33%;
+    height: auto;
+    margin: 10rem auto;
+    border-radius: 1rem;
+}
+
+.container h1 {
+    padding: 2rem 3rem 0rem;
+    font-size: 2.5rem;
+}
+
+/* Configuração geral da calculadora */
+.calculator {
+    width: 600px;
+    padding: 2rem 2rem;
+    border-spacing: 0.4rem;
+}
+
+.display {
+    font-size: 2em;
+    width: 100%;
+    height: 3.5rem;
+    text-align: right;
+    margin-bottom: 0.5rem;
+}
+
+.btn {
+    width: 100%;
+    height: 4rem;
+    font-size: large;
+}

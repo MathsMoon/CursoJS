@@ -107,3 +107,10 @@ const var_function2 = return_Function('João');
 //Retornando a informação via console no html.
 console.dir(var_function);
 console.dir(var_function2);
+
+/* Funções imediatas */
+//para proteger nosso código do escopo global, podemos envolve-la em uma função que se chama automaticamente como demonstrado abaixo:
+
+(function (){
+    console.log('Hello World');
+})();
