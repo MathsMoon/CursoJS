@@ -15,8 +15,12 @@ Neste repositório está tudo que será realizado de estudo para os próximos 10
 ### 1. Introdução
 Pasta que introduz todo o conteúdo inicial que irei colocar, tanto o estudo do HTML e CSS como também os primeiros fundamentos do JavaScript. Pretendo utilizar essa pasta para guardar os projetos iniciais, testes, atividades do curso e outras necessidades que for
 observando de acordo com o andamento do curso.
-### 2. Atividades
-Pasta extra de atividades que irei fazer por fora do curso, sejam elas para reafirmar assuntos estudados ou construir algumas interfaces visuais de outros projetos como comecei no desafio de [java](https://github.com/MathsMoon/100DaysCoding).
+### 2. Exercícios
+Pasta que tem a coletânea de exercícios que fiz de outros cursos e que não se relacionam com o CursoJS, mas por terem o mesmo foco estão
+aqui.
+### 3. JavaScript_Basico
+Pasta principal que eu estudo os fundamentos do javascript, é a pasta principal que junto a pasta de Typescript, contém todo conteúdo 
+básico ao avançado de cada linguagem.
 
 ---
 ## 🖖 **Regras do Desafio #100DaysCode**

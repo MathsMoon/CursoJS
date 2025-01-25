@@ -10,6 +10,8 @@ Pontos importantes para serem revisados posteriormente:
 8 - Tipos de Erro (Javascript).
 9 - Function Express.
 10 - Immediately Invoked Function Express (IIEF).
+11 - Slice (Javascript).
+12 - Key (Javascript).
 
 Comentários sobre as aulas:
 

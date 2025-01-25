@@ -118,3 +118,7 @@ aprendendo e também a avaliar o que me falta para concluir outros passos que n�
 28 - Vigésimo oitavo dia, No dia de ontem não mexi em nada além das pequenas atividades que fui fazendo pela madrugada. Compensando por ontem
 como também pelo resto da semana que não foi tão forte, continuei buscando estudar e organizar outros cursos para ir explorando outros temas, 
 a exemplo dos projetos e exercícios para praticar.
+
+29 - Vigésimo nono dia, terminei a atividade e de brinde um curso básico de VsCode, para prosseguir vou buscar finalizar logo a seção
+de java funcional, aproveitando que também possuo um curso que vai me ajudar neste tipo de conhecimento. Tenho que tentar pelo menos 
+alcançar metade das metas propostas, para não ficar tão atrás de onde poderia já estar.
