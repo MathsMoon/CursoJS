@@ -1,0 +1,6 @@
+Todas as atividade a serem feitas estão aqui:
+
+- Aula_JsFunction/Laze_Function -> Fazer um objeto ser retornando com o yield mostrando cada parte de um objeto
+- Aula_JsFunction/Recursive -> Buscar atividade no curso de funcionalidade.
+- Aula_JsFunction/exe_calc/script2 -> Refazer a calculadora com uma função construtora + adicionar os números do NumPad e numérico 
+acima do teclado.

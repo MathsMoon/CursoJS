@@ -3,7 +3,7 @@
     function create_Calc(){
         return {
             /* Seção das Propriedades */
-            display: document.querySelector('.display'), //
+            display: document.querySelector('.display'),
 
             /* Seção dos Métodos */
             //Inicializando a calculadora

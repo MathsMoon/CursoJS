@@ -12,6 +12,8 @@ Pontos importantes para serem revisados posteriormente:
 10 - Immediately Invoked Function Express (IIEF).
 11 - Slice (Javascript).
 12 - Key (Javascript).
+13 - For (Javascript).
+
 
 Comentários sobre as aulas:
 
