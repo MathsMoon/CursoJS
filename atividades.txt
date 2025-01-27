@@ -2,5 +2,8 @@ Todas as atividade a serem feitas estão aqui:
 
 - Aula_JsFunction/Laze_Function -> Fazer um objeto ser retornando com o yield mostrando cada parte de um objeto
 - Aula_JsFunction/Recursive -> Buscar atividade no curso de funcionalidade.
-- Aula_JsFunction/exe_calc/script2 -> Refazer a calculadora com uma função construtora + adicionar os números do NumPad e numérico 
-acima do teclado.
+- Aula_JsFunction/exe_calc/script2 -> Refazer a calculadora com uma função construtora + adicionar os números do NumPad e numérico acima do teclado.
+- Exercicios/js/coderDesafios -> Manipulando o objeto de uma shoplist utilizando Map, filter e reduce.
+- Exercicios/js/Objects -> Realizar as atividades 79 e 81.
+- Exercicios/js/arrays -> Realizar as atividades especificadas.
+- Exercicios/js/Functions -> Realizar as atividades especificadas.

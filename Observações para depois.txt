@@ -11,12 +11,13 @@ Pontos importantes para serem revisados posteriormente:
 9 - Function Express.
 10 - Immediately Invoked Function Express (IIEF).
 11 - Slice (Javascript).
-12 - Key (Javascript).
-13 - For (Javascript).
+12 - Funcionamento da Key (Javascript).
+13 - Tipos de For (Javascript).
+14 - Spread, Rest e Default (Javascript).
 
 
 Comentários sobre as aulas:
 
 595 - Unidades de Medida: Muito interessante usar uma medida relativa para organizar toda a estrutura do site, como por padrão o 
 navegador pega um número quebrado, ele reduziu em % para obter um número fechao (que era o 10), assim ele pode calcular de forma
-mais fácil por estar usando a base 10 como padrão para o .html;
+mais fácil por estar usando a base 10 como padrão para o '.html'.

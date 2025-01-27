@@ -101,4 +101,17 @@ function return_PrimeNum(num) {
 
 console.log(return_PrimeNum(100));
 
-//Próximas a serem feitas: 65, 67, 74, 87 ao 102.
+// 65 - Somando todos os valores do array em um callback até acabar:
+
+/* 67 - Escreva uma função que aceite uma função de callback e um
+array de arrays, e retorne um novo array que contém os resultados de
+aplicar a função de callback a cada array. 
+
+Neste exercício, você deve criar uma função de alta ordem que receba uma
+função de callback e um array de arrays como argumentos, e retorne um novo array que
+contenha os resultados de aplicar a função de callback a cada array.
+*/
+
+// 87 - Pegue 2 Arrays, combine os dois e pegue os números que são dividos por 5:
+
+// 102 - Pega um array de Strings, una todos em 1 só string separadas por ',':
