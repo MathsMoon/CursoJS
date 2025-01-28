@@ -14,6 +14,7 @@ Pontos importantes para serem revisados posteriormente:
 12 - Funcionamento da Key (Javascript).
 13 - Tipos de For (Javascript).
 14 - Spread, Rest e Default (Javascript).
+15 - Método Splice (Javascript).
 
 
 Comentários sobre as aulas:
