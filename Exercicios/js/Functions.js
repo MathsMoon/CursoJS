@@ -49,6 +49,11 @@ objetos e a importância de iterar corretamente sobre eles para alcançar o resu
 desejado.
 */
 
+function grouping_Arrays(arr1, arr2) {
+    if(arr1 || arr2 != typeof Array) return `Ambos os valores precisam ser arrays`;
+    arr1.map((item, index) => arr1);
+}
+
 
 // 132 - Desestruturando um Objeto e criando outro
 const extracting_Obj = { 
@@ -65,12 +70,31 @@ function extracting_Statements(person){
 }
 
 const person = {name: 'MAB', age: 20, addres: {street: '123', numb: 1}, ID: 12};
-console.log(extracting_Statements(person));
+//console.log(extracting_Statements(person));
 
 // 133 - Desestruturando um Array:
+function extracting_Values(...array){
+    //Extraindo os 3 primeiros valores, caso não possua valor, substitui por 'Null':
+    const [num1 = 'null', num2 = 'null', num3 = 'null'] = array;
+    return [num1, num2, num3];
+}
 
+//Mostrando o resultado:
+//console.log(extracting_Values(1,2,3,4));
 
 // 134 - Desestruturando um Objeto Aninhado:
+function extracting_Address(obj) {
 
+}
 
 // 138 - Desestruturando um Array Aninhado:
+const matriz = [
+    [1,2,3]   , [4,5,6]   , [7,8,9],
+    [10,11,12], [13,14,15], [16,17,18],
+    [19,20,21], [22,23,24], [25,26,27]
+]
+
+function extracting_Arrays(matriz) {
+    //alcando o valor específico dentro de um Array de Arrays:
+    
+}

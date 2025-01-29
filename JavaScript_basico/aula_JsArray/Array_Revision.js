@@ -1,7 +1,7 @@
 /* Revisão geral dos Arrays */
 
 const names = ['M.A.B', 'João', 'Lucas', 'Marcos'];
-console.log(names);
+//console.log(names);
 
 //Deletando o item do array (não seu espaço): Não altera os índices
 delete names[2];
@@ -38,5 +38,19 @@ let removeds = names.splice(1, 1); //Removendo o <1 empty item>
 //console.log(names, removeds);
 
 // Adicionando elementos ao Array via splice:
-names.splice(names.length, 0, 'Luis');
-console.log(names);
+names.splice(names.length, 0, 'Lucas');
+//console.log(names);
+
+// Concatenando arrays:
+const names2 = ['Isabel', 'Letícia', 'Matheus'];
+
+function grouping_Arrays(){
+    //const family = names.concat(names2); -> Primeira forma de Concatenar Arrays
+    const family = [...names, ...names2]; //Segunda forma de concatenar arrays, o spread recebe tudo dentro das arrays.
+
+    //Organizando para que fiquem nos primeiros slots: MAB e Matheus.
+    
+    return family;
+}
+
+console.log(grouping_Arrays());

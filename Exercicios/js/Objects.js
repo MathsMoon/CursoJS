@@ -48,9 +48,9 @@ const Dog = {
 
 // 79 - Criando um Objeto que retorna a velocidade atual, velocidade aumentada e reduzida em relação a atual:
 const Automobile = {
-    ActualSpeed: 0,
-    MaxSpeed: 200,
-    MinSpeed: 10,
+    Actual_Speed: 0,
+    Max_Speed: 200,
+    Min_Speed: 10,
     
     /* Revisar o código abaixo para que se cumpra o que é pedido:
 
@@ -59,20 +59,18 @@ const Automobile = {
     */
 
     actualSpeed() {
-        this.ActualSpeed = Math.floor(Math.random() * (this.MaxSpeed + this.MinSpeed) - this.MinSpeed);
-        if(this.ActualSpeed < 0) this.ActualSpeed += this.MinSpeed;
-        console.log(`Velocidade Atual: ${this.ActualSpeed} Km/h`);
+        this.Actual_Speed = Math.floor(Math.random() * (this.Max_Speed + this.Min_Speed) - this.Min_Speed);
+        if(this.Actual_Speed < 0) this.Actual_Speed += this.Min_Speed;
+        console.log(`Velocidade Atual: ${this.Actual_Speed} Km/h`);
     },
 
     increaseSpeed() {
-        let maximum = this.ActualSpeed + Math.floor(Math.random() * (this.MaxSpeed - this.ActualSpeed) - this.ActualSpeed);
-        if(maximum == this.MaxSpeed) maximum = this.MaxSpeed;
+        let maximum = Math.floor(Math.random() * (this.Max_Speed));
         console.log(`Aumentando a velocidade Para: ${maximum} Km/h`);
     },
 
     reducingSpeed() {
-        let minimum = this.ActualSpeed - Math.floor(Math.random() * (this.MinSpeed - this.ActualSpeed) - this.MinSpeed);
-        if(minimum < this.MinSpeed) minimum = this.MinSpeed;
+        let minimum
         console.log(`Reduzindo a velocidade para: ${minimum} Km/h`);
     },
 
@@ -86,7 +84,40 @@ const Automobile = {
 //Testando o código:
 for(let i = 0; i <= 5; i++){
     console.log('-----------------------------------');
-    Automobile.showingVelocimeter();
-    
+    Automobile.showingVelocimeter();   
 }
+
 // 81 - Criando um Objeto que age como uma conta bancária:
+let first_Deposit = 200;
+let firts_Bill = 150;
+
+const bank_Account = {
+    name: 'User',
+    balance: 0,
+
+    // Funcionalidades de um Objeto:
+    deposit_TO(value) {
+        if(value == NaN) return `Não é possível depositar, insira valor em Reais`;
+        this.balance += value;
+        console.log('Depósito feito com Sucesso');
+        this.bank_Balance();
+    },
+
+    bank_Balance() {
+        console.log(`Seu saldo atual da conta está em: ${this.balance}`
+        );
+    },
+
+    withdrawal_TO(value) {
+        if(value == NaN) return `Não é possível depositar, insira valor em Reais`;
+        if(value > this.balance) return `Valor é maior que o Saldo, não é possível se retirar.`;
+
+        this.balance -= value;
+        console.log("Conta paga com sucesso!");
+        this.bank_Balance();
+    }
+}
+
+//Mostrando resultados:
+// bank_Account.deposit_TO(first_Deposit);
+// bank_Account.withdrawal_TO(firts_Bill);
