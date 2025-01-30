@@ -7,3 +7,4 @@ Todas as atividade a serem feitas estão aqui:
 - Exercicios/js/Objects -> Realizar as atividades 79 e 81.
 - Exercicios/js/arrays -> Realizar as atividades especificadas.
 - Exercicios/js/Functions -> Realizar as atividades especificadas.
+- Aula_JsArray/Array_Map -> Revisar depois o código de ID para construir uma função que seguramente não repita os códigos ID's.

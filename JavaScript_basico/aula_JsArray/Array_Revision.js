@@ -44,13 +44,14 @@ names.splice(names.length, 0, 'Lucas');
 // Concatenando arrays:
 const names2 = ['Isabel', 'Letícia', 'Matheus'];
 
-function grouping_Arrays(){
+function grouping_Arrays(arr1, arr2){
     //const family = names.concat(names2); -> Primeira forma de Concatenar Arrays
-    const family = [...names, ...names2]; //Segunda forma de concatenar arrays, o spread recebe tudo dentro das arrays.
+    const temporary = arr1.concat(arr2);
 
-    //Organizando para que fiquem nos primeiros slots: MAB e Matheus.
-    
+    //Organizando para que fiquem nos primeiros slots: M.A.B e Matheus.
+    const family = ['M.A.B', 'Matheus', ...temporary.filter(names => names !== 'M.A.B' && names !== 'Matheus')];
     return family;
 }
 
-console.log(grouping_Arrays());
+//Mostrando o resultado:
+console.log(grouping_Arrays(names, names2));
