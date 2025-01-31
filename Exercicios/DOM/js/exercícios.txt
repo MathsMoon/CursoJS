@@ -1,0 +1,115 @@
+- Exercício 186: Dada uma página com uma lista não ordenada
+(<ul>) de itens, escreva uma função JavaScript que adicione
+um novo item ao final dessa lista.
+
+Descrição:
+O objetivo é selecionar uma lista não ordenada e inserir um novo item nessa lista. Para
+isso, você usará o document.querySelector para obter a referência da lista e então
+adicionar um novo item
+
+- Exercício 187: Crie uma função que, ao clicar em um botão, altere a cor de
+fundo de um parágrafo para azul.
+
+Descrição:
+Ao clicar em um botão, você deve selecionar um elemento parágrafo e alterar sua cor de
+fundo para azul.
+
+- Exercício 188: Crie uma função que exiba em tempo real o que está sendo
+digitado em um campo de texto.
+
+Descrição:
+Cada vez que um usuário digitar algo em um campo de texto (<input type="text">), o
+conteúdo desse campo deve ser exibido em um elemento <p> abaixo dele.
+
+- Exercício 189: Ao clicar em um botão, adicione ou remova uma classe
+"ativo" de um elemento.
+
+Descrição: 
+Você deve criar um botão que, quando clicado, alternará a classe "ativo" de um elemento
+<div>. Se o elemento tiver a classe, ela deve ser removida; se não tiver, deve ser
+adicionada.
+
+- Exercício 190: Dada uma lista de itens, crie uma função que exiba apenas os
+itens que contêm uma determinada palavra.
+
+Descrição:
+Você terá uma lista não ordenada (<ul>) de itens. Abaixo dela, haverá um campo de
+texto e um botão. O usuário pode digitar uma palavra no campo e, ao clicar no botão,
+apenas os itens da lista que contêm essa palavra devem ser exibidos.
+
+- Exercício 191: Crie uma função que adicione uma classe "visível" a um
+elemento quando ele estiver visível na janela de visualização ao rolar a
+página.
+
+Descrição:
+Você terá um elemento <div> que estará fora da janela de visualização (viewport)
+quando a página for carregada. Ao rolar a página e esse elemento entrar na janela de
+visualização, adicione a ele a classe "visível".
+
+- Exercício 192: Crie um botão que, quando clicado, altere o tema da página
+entre claro e escuro.
+
+Descrição:
+Haverá um botão na página. Quando clicado, se o tema atual for claro, ele deve mudar
+para escuro e vice-versa.
+
+- Exercício 193: Crie um botão que, quando clicado, exiba um modal na tela.
+O modal deve ter também um botão que o feche.
+
+Descrição:
+Haverá um botão na página principal. Quando clicado, um modal (uma pequena
+janela/overlay) deve aparecer no centro da tela. Esse modal terá um botão de fechar,
+que quando clicado, fechará o modal.
+
+- Exercício 194: Ao clicar em uma imagem na página, mostre essa imagem
+em tamanho ampliado em um modal.
+
+Descrição:
+Você terá algumas imagens miniaturas na página. Quando o usuário clicar em uma
+delas, a imagem deve ser exibida em tamanho maior em um modal. Também deve haver
+um botão para fechar o modal.
+
+- Exercício 195: Crie um botão "Feedback" que, quando clicado, mostra um
+formulário modal para o usuário inserir feedback. Ao enviar, mostre um
+alerta de agradecimento.
+
+Descrição:
+O usuário deve ser capaz de fornecer feedback por meio de um formulário que inclui um
+campo de texto. Depois de enviar, um alerta de agradecimento deve ser mostrado e o
+modal deve ser fechado.
+
+- Exercício 196: Em um campo de texto, exiba um contador de caracteres
+restantes. Permita no máximo 150 caracteres.
+
+Descrição:
+Ao lado de um campo de texto, haverá uma contagem regressiva a partir de 150. À
+medida que o usuário digita, o contador deve diminuir. Se o usuário exceder 150
+caracteres, mostre uma mensagem de erro.
+
+- Exercício 197: Crie um botão que altere o conteúdo de um título e de um
+parágrafo ao mesmo tempo.
+
+Descrição:
+O usuário deve ser capaz de clicar em um botão que alterne o conteúdo de um título e de
+um parágrafo simultaneamente.
+
+- Exercício 198: Implemente um dropdown personalizado usando HTML e
+JavaScript.
+
+Descrição:
+Em vez de usar o dropdown padrão <select>, crie um usando divs e listas. O dropdown
+deve exibir as opções quando clicado e permitir ao usuário selecionar uma opção.
+
+- Exercício 199: Implemente uma funcionalidade de arrastar e soltar para
+reordenar uma lista.
+
+Descrição:
+Você terá uma lista de itens. O usuário deve ser capaz de reordenar essa lista arrastando
+e soltando itens.
+
+- Exercício 200: Crie um guia de abas onde o conteúdo é alterado ao clicar
+nas abas.
+
+Descrição:
+Você terá várias abas na parte superior e conteúdo correspondente abaixo. Ao clicar em
+uma aba, apenas o conteúdo dessa aba deve ser exibido.

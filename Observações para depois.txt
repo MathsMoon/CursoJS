@@ -15,6 +15,7 @@ Pontos importantes para serem revisados posteriormente:
 13 - Tipos de For (Javascript).
 14 - Spread, Rest e Default (Javascript).
 15 - Método Splice (Javascript).
+16 - Factory Function vs Constructor Function vs Classes (Javascript).
 
 
 Comentários sobre as aulas:

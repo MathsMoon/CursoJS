@@ -36,7 +36,20 @@ generic.statement1 = 'value4';
 //console.log(generic);
 
 // 127 - Mesclando dois objetos para se tornarem 1 só:
+const community = [
+    {Name: 'Amélia', Age: 55},
+    {Name: 'Antônio', Age: 67},
+    {Name: 'Aparecida', Age: 88 },
+    {Name: 'Afonso', Age: 90 },
+]
 
+//Obs: Uma boa prática nesta junção crua, é rever as propriedades e reorganizar o novo objeto com os parâmetros.
+function grouping_Objects(Obj1, Obj2) {
+    return new_Obj = {...Obj1, ...Obj2};
+}
+
+//Mostrando o resultado:
+//console.log(grouping_Objects(generic, community));
 
 /*  131 - Implemente uma função que aceite dois arrays. O primeiro
 array é uma lista de objetos com uma chave e valor, e o segundo é uma
@@ -49,11 +62,10 @@ objetos e a importância de iterar corretamente sobre eles para alcançar o resu
 desejado.
 */
 
-function grouping_Arrays(arr1, arr2) {
-    if(arr1 || arr2 != typeof Array) return `Ambos os valores precisam ser arrays`;
-    arr1.map((item, index) => arr1);
-}
 
+// Agrupando 2 arrays em 1 só array:
+const arr3 = (arr1, arr2) => [...arr1, ...arr2];
+//console.log(arr3([1,2,3,4,5],[6,7,8,9,10]));
 
 // 132 - Desestruturando um Objeto e criando outro
 const extracting_Obj = { 
@@ -69,7 +81,7 @@ function extracting_Statements(person){
     return `Meu nome é: ${name}, tenho ${age} anos de idade`;
 }
 
-const person = {name: 'MAB', age: 20, addres: {street: '123', numb: 1}, ID: 12};
+const person = {name: 'MAB', age: 20, addres: {street: 'Rua Beato Carlos 1', numb: 1}, ID: 12};
 //console.log(extracting_Statements(person));
 
 // 133 - Desestruturando um Array:
@@ -84,17 +96,41 @@ function extracting_Values(...array){
 
 // 134 - Desestruturando um Objeto Aninhado:
 function extracting_Address(obj) {
-
+    const {addres: {street, numb}} = obj; 
+    return {
+        street,
+        numb
+    };
 }
+
+//Mostrando resultado:
+// console.log(extracting_Address(person));
+
+// 135 - Desestruturando parâmetros de uma função:
+function destructuring_Obj({name, ID}){
+    return `Nome: ${name} \nID: ${ID}`;
+};
+
+//Mostrando resultado:
+//console.log(destructuring_Obj(person));
+
+// 136 - Desestruturando usando Rest:
+function destructuring_WithRest(num1, num2, num3, ...rest){
+    return [num1,num2,num3, rest];
+}
+
+//Mostrando resultado:
+//console.log(destructuring_WithRest(1,2,3,4,5,6,7,8,9,10,11,12));
 
 // 138 - Desestruturando um Array Aninhado:
-const matriz = [
-    [1,2,3]   , [4,5,6]   , [7,8,9],
-    [10,11,12], [13,14,15], [16,17,18],
-    [19,20,21], [22,23,24], [25,26,27]
-]
+const arr = [1,2,3,[4,[5],6],8,9,10];
 
-function extracting_Arrays(matriz) {
-    //alcando o valor específico dentro de um Array de Arrays:
-    
+//Extraindo valores de uma Array Aninhado (2 elemento do 1 array e o 1 elemento do 3 array):
+function extracting_Array(arr){
+    const num1 = arr[3][0];
+    const num2 = arr[3][1][0];
+    return [num1, num2];
 }
+
+//Mostrando resultado:
+//console.log(extracting_Array(arr));

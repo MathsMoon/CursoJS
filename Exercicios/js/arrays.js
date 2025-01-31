@@ -99,9 +99,11 @@ function return_PrimeNum(num) {
     return primes;
 }
 
-console.log(return_PrimeNum(100));
+//console.log(return_PrimeNum(100));
 
 // 65 - Somando todos os valores do array em um callback até acabar:
+const sum = array.reduce((acc, value) => acc += value);
+//console.log(sum);
 
 /* 67 - Escreva uma função que aceite uma função de callback e um
 array de arrays, e retorne um novo array que contém os resultados de
@@ -112,6 +114,36 @@ função de callback e um array de arrays como argumentos, e retorne um novo arr
 contenha os resultados de aplicar a função de callback a cada array.
 */
 
+
+
 // 87 - Pegue 2 Arrays, combine os dois e pegue os números que são dividos por 5:
+const array2 = [10,11,12,13,14,15];
+
+function returning_Sum(arr1, arr2) {
+    const arr3 = [...arr1, ...arr2];
+    let array = arr3.filter(value => value % 5 == 0);
+    return array;
+}
+
+//Mostrando resultado:
+//console.log(returning_Sum(array, array2));
 
 // 102 - Pega um array de Strings, una todos em 1 só string separadas por ',':
+/* PS: Irei tornar mais difícil, vou pegar um objeto, filtrar apenas os nomes e 
+fazer o que é pedido. 
+PS2: achei que seria mais difícil...
+*/
+const Users = [
+    {username:'Huimuode', email: 'Huimuode@com'},
+    {username:'Guogyogi',  email: 'Guogyogi@bom'},
+    {username:'Ricardo',  email: 'Ricardo@bom'},
+    {username:'Hegus',  email: 'Hegus@tom'},
+    {username:'OtáviO',  email: 'Otávio@fom'},
+    {username:'Xoexa',  email: 'Xoexa@fom'},
+    {username:'????????????',  email: '????????????@com'},
+    {username:'Fimehe',  email: 'Fimehe@pom'},
+];
+
+//Mostrando Resultado:
+names = Users.map(obj => obj.username).join(', ');
+//console.log(names);

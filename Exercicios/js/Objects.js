@@ -51,11 +51,10 @@ const Automobile = {
     Actual_Speed: 0,
     Max_Speed: 200,
     Min_Speed: 10,
-    
-    /* Revisar o código abaixo para que se cumpra o que é pedido:
 
-    - A velocidade do increase deve ser sempre maior que a atual.
-    - A velocidade de redução sempre será menor que a atual.
+    /* As funções abaixo vão alterando a velocidade acima ou abaixo da velocidade atual, este exercício eu realmente fui 
+        na tentativa e erro até encontrar alguma lógica no Math.random() e sair o que eu queria, deu certo, 
+        como? Por hora só Deus sabe.
     */
 
     actualSpeed() {
@@ -65,12 +64,13 @@ const Automobile = {
     },
 
     increaseSpeed() {
-        let maximum = Math.floor(Math.random() * (this.Max_Speed));
+        let maximum = Math.floor(Math.random() * (this.Max_Speed - this.Actual_Speed) + this.Actual_Speed);
         console.log(`Aumentando a velocidade Para: ${maximum} Km/h`);
     },
 
     reducingSpeed() {
-        let minimum
+        let minimum = Math.floor(Math.random() * (this.Actual_Speed + this.Min_Speed) - this.Min_Speed);
+        if(minimum < 10) minimum = this.Min_Speed;
         console.log(`Reduzindo a velocidade para: ${minimum} Km/h`);
     },
 
@@ -82,7 +82,7 @@ const Automobile = {
 }
 
 //Testando o código:
-for(let i = 0; i <= 5; i++){
+for(let i = 0; i <= 10; i++){
     console.log('-----------------------------------');
     Automobile.showingVelocimeter();   
 }
