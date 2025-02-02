@@ -147,3 +147,6 @@ acabar perdendo o ritmo, afinal eu sempre volto a estar mais ativo no período d
 36 - Trigésimo sexto dia, apesar dos bons avanços, poderia ter ido bem mais longe até finalizar por completo a seção, mas deixei de lado,
 para focar em outras coisas. O que me resta é tentar chegar pelo menos na metade da próxima para até o começo de fevereiro estar já 
 comenado a ver Nodejs.
+
+37 - Trigésimo sétimo dia, dia bem mais fraco, não consegui fazer nada de relevante. Mas vou conseguir recuperar e vou tentar chegar a
+seção de Node até o fim deste domingo.
