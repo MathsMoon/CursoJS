@@ -15,13 +15,7 @@ opcional: se quiser faz algo interativo pra você ver e ir passando o next você
 */
 
 function* getValue() {
-    yield () => {
-        this.Name.value;
-    } 
-
-    yield () => {
-        this.Age.value;
-    }
+  
 }
 
 function setPerson(name, age, address){
@@ -32,5 +26,8 @@ function setPerson(name, age, address){
     }, getValue();
 }
 
-setPerson('a', 1, 1);
+const p1 = setPerson('a', 1, 1);
 const get = getValue();
+console.log(p1);
+get.next();
+console.log(get.return());

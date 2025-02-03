@@ -40,6 +40,12 @@ const shopList = [
     { name: 'Tesoura', amount: 1, price: 19.20, fragile: true}
 ];
 
-function returning_Organized_ShopList(){
+//Filtrando os objetos frágeis da lista:
+const fragiles = shopList.filter(obj => obj.fragile == true);
 
-}
+//Mapeando todo os produtos por qtd e retornando a média de cada um:
+const prods_Average = shopList.map(obj => ((obj.amount * obj.price)/obj.amount));
+console.log(prods_Average);
+
+//Retornando o valor da média total de todos os produtos:
+const total_Average = 1;

@@ -66,3 +66,8 @@ let nicks = new_Users.map(obj => ({Nickname: obj.Nickname}));
 //Mapenado os Usuários e mudando o final para @Fom:
 const new_email = Users.map(obj => obj.email.replace('@', '@Fom')); 
 //console.log(new_email);
+
+//Mapeando usuários para impedir repetição no ID:
+// const Users_ID = Users.filter((obj, acc) => {
+//     if(obj.ID == acc.ID) 
+// });

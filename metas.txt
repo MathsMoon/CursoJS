@@ -1,8 +1,8 @@
 Semana 1: 57 aulas
 - Seção de lógica de programação em Javascript (33/33).
-- Seção de funções avançadas (12/13).
+- Seção de funções avançadas (13/13).
 - Seção de estudo aprofundado em arrays(8/8).
-- Seção de Objetos e prototypes para Javascript(10/13).
+- Seção de Objetos e prototypes para Javascript(11/13).
 - Seção de Programação Orientada a Objeto (0/6).
 - Seção de Assincronia no Javascript (0/6).
 - Seção de Tooling e ES6 Modules no Javascript (0/9).

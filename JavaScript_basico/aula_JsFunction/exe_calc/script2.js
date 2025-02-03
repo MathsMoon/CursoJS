@@ -1,85 +1,87 @@
 /* Convertendo tudo do script que é uma função factory para uma função construct */
 (function (){
-    function Calculator(){
-        //Variáveis públicas da calculadora:
-        const display = document.querySelector('.display');
+        function Calculator() {
 
-        //Área de testes:
-        // console.log('Calculadora Iniciada'); R: Está sendo devidamente iniciada
+            //Criando a variável que vai conter o display:
+            const display = document.querySelector('.display');
 
-        const begin = function (){
-            this.button_Click();
-            this.enterKey();
-        }
-        
+            /* Seção de Eventos */
 
-        /* Seção de captura de eventos */
-        //
-        function button_Click() {
-            this.document.addEventListener('click', function(event) {
-                const el = event.target;
+            //Função que inicia a calculadora pegando os clicks do mouse
+            this.begin = () => {
+                this.captureClick();
+                //this.captureNumPad();
+            }
 
-                console.log(el);
+            //Função que captura os clicks do mouse nos botões do display:
+            this.captureClick = () => {
+                document.addEventListener('click' , event => {
+                    const el = event.target;
 
-                if(el.classList.contains('btn-num')){
-                    
-                    
-                    //btn_toDisplay(el.innerText);
-                    
-                }
-                
-                if(el.classList.contains('btn-clear')) { //Limpando todo o input
-                    clear_Display();
-                }
+                    if(el.classList.contains('btn-num')) {this.addNumdisplay(el);}
+                    if(el.classList.contains('btn-clear')) {this.clearDisplay();}
+                    if(el.classList.contains('btn-del')) {this.deleteLastElOnDisplay();}
+                    if(el.classList.contains('btn-eq')) {this.showingResult();}
+                });
+            }
 
-                if(el.classList.contains('btn-del')){ //Deletando o último caractere inserido
-                    delete_LastChar();
-                }
+            //Função que captura os números digitados do Numpad ou numéricos acima do teclado:
+            // this.captureNumPad = () => {
+            //     document.addEventListener('numpad', event => {
+            //         const el = event.target;
 
-                if(el.classList.contains('btn-eq')) { //Retornando o resultado do cálculo
-                    showing_Result();
-                }
-            });
-        }
+            //     });
+            // }
 
-        /* Seção das funções */
+            //Função que recebe o enter como envio:
+            // this.enterKey = () => {
+            //     document.addEventListener('keypress', event => {
+            //         console.log(event);
+            //         if(event.keyCode == 13) {
+            //             this.showingResult();
+            //         }
+            //     });
+            // }
 
-        //
-        function Numpad_Click() {
+            //Função que escreve no display os números
+            this.addNumdisplay = el => {
+                display.value += el.innerText;
+                display.focus();
+            }
             
-        }
+            //Função que apaga o último elemento do display:
+            this.deleteLastElOnDisplay = () => {
+                display.value = display.value.slice(0, -1);
+            }
 
-        //
-        function enterKey() {
-            showing_Result();
-        }
+            //Função que limpa a cálculadora:
+            this.clearDisplay = () => {
+                display.value = '';
+            }
 
-        //
-        function btn_toDisplay(new_Value) {
-            display.innerText += new_Value;
-        }
+            //Função que mostra a conta feita:
+            this.showingResult = () => {
+                let conta = display.value;
 
-        //
-        function showing_Result(){
-            const display_Text = display.value;
+                //Utilizando o método eval:
+                try {
+                    //Capturando possíveis erros:
+                    if(Number.isNaN(conta)) {
+                        alert("Não é permitido caracteres além dos números");
+                        return;
+                    }
 
-            try {
-                if(!display_Text) {
-                    //alert('Não é permitidos outros caracteres além dos número!');    
+                    //Realizando a conta e mostrando resultado:
+                    conta = eval(conta);
+                    display.value = conta;
+                } catch (e) {
+                    alert("Não é permitido caracteres além dos números");
                     return;
                 }
-                btn_toDisplay(eval(display_Text));
-            } catch (e){
-                alert('Não é permitidos outros caracteres além dos número!');
             }
         }
 
-        //
-        function delete_LastChar() {
-
-        }
-    }
-
     //Chamando a função:
-    Calculator();
+    const calc = new Calculator();
+    calc.begin();
 })();

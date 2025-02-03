@@ -16,6 +16,8 @@ Pontos importantes para serem revisados posteriormente:
 14 - Spread, Rest e Default (Javascript).
 15 - Método Splice (Javascript).
 16 - Factory Function vs Constructor Function vs Classes (Javascript).
+17 - AddeventListener (Javascript).
+18 - Symbol (Javascript).
 
 
 Comentários sobre as aulas:

@@ -2,7 +2,7 @@ Todas as atividade a serem feitas estão aqui:
 
 - Aula_JsFunction/Laze_Function -> Fazer um objeto ser retornado com o yield mostrando cada parte de um objeto
 - Aula_JsFunction/Recursive -> Buscar atividade no curso de funcionalidade.
-- Aula_JsFunction/exe_calc/script2 -> Refazer a calculadora com uma função construtora + adicionar os números do NumPad e numérico acima do teclado.
+x Aula_JsFunction/exe_calc/script2 -> Refazer a calculadora com uma função construtora + adicionar os números do NumPad e numérico acima do teclado.
 - Aula_JsArray/Array_Map -> Revisar depois o código de ID para construir uma função que seguramente não repita os códigos ID's.
 - Aula_JsObject/Object_Prototype -> Refazer o código para criar um objeto de uma conta Bancária.
 - Aula_JsObject/exercicio/validateCPF -> Realizar uma verificação de CPF.
