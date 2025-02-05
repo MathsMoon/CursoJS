@@ -153,3 +153,10 @@ seção de Node até o fim deste domingo.
 
 38 - Trigésimo oitavo dia, mais um dia fraco, preciso focar mais horas e principalmente aprender a lógica de muitas das estruturas que
 aprendi nos últimos dias, nesta semana vou conciliar mais atividades para não perder o aprendizado e praticar mais.
+
+39 - Trigésimo nono dia, foi um dia muito puxado ao ponto de não ter tempo para adicionar nada de útil, fiquei a maior parte do tempo 
+fora, mas consegui ler o tips for Javascript e fui vendo sobre formas eficientes para utilizar a linguagem.
+
+40 - Quadragésimo dia, consegui avançar algumas aulas e vou terminar a parte de classes logo. Consegui ao menos começar a utilizar mais
+o inglês para escrever comentários e vou utiliza-lo em breve para grandes definições a anotações, para ir me acostumando e estudando 
+também o idioma.
