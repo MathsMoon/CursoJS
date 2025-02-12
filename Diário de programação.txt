@@ -160,3 +160,10 @@ fora, mas consegui ler o tips for Javascript e fui vendo sobre formas eficientes
 40 - Quadragésimo dia, consegui avançar algumas aulas e vou terminar a parte de classes logo. Consegui ao menos começar a utilizar mais
 o inglês para escrever comentários e vou utiliza-lo em breve para grandes definições a anotações, para ir me acostumando e estudando 
 também o idioma.
+
+41 - Quadragésimo primeiro dia, um dia parado sem tanta movimentação. 
+
+42 - Quadragésimo segundo dia, Tive que ajudar um amigo meu em outro projeto e acabei deixando de lado os estudos.
+
+43-46 - Durante esses últimos dias não tive tantos avanços, comecei a auxiliar um amigo em um projeto pessoal e não dei tempo para o 
+estudo do JavaScript, mas vou aproveitar o resto da noite para avançar.

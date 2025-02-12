@@ -14,30 +14,30 @@ Semana 2: 79 aulas
 - Seção de API REST (0/21).
 - Seção de React componentes de classe (0/13).
 
-Semana 27-03/02:  68 Aulas
+Semana 3:  68 Aulas
 - Seção de React Redux e Hooks (0/35).
 - Seção de React Router DOM (0/12).
 - Seção de Regex (0/12).
 - Seção de Instalação TypeScript (0/9).
 
-Semana 03-10: 65 Aulas
+Semana 4: 65 Aulas
 - Seção de Tipos básicos Ts (0/22).
 - Seção de POO com TypeScript (0/19).
 - Seção de Tipos avançados (0/6).
 - Seção de generics no TypeScript (0/10).
 - Seção de Decorators no Ts (0/8).
 
-Semana 10-17: 80 aulas
+Semana 5: 80 aulas
 - Seção de Namespace e Modules no Ts (0/6).
 - Seção de princípios S.O.L.I.D com TS (0/12).
 - Seção de Pomodoro APP (0/13).
 - Seção de Desing Patterns e GOF com TS (0/49).
 
-Semana 17-24: 59 aulas
+Semana 6: 59 aulas
 - Seção de NextJs e API REST (0/54).
 - Seção de deploy NextJs (0/5).
 
-Semana 24-03/03: 79 aulas.
+Semana 7: 79 aulas.
 - Seção de dados MYSQL e MariaDB (0/47).
 - Seção Knex.js SQL query (0/32)
 
@@ -45,8 +45,5 @@ Semana 24-03/03: 79 aulas.
 Apartir desta semana tudo será opcional pelo motivo de que o curso já ter terminado
 portanto as semanas finais do desafio podem tanto serem utilizadas para terminar conteúdos
 pendentes das semanas acima, como pode ser utilizada para estudar os conteúdos opcionais
-para continuar o estudo diário. 
+para continuar o estudo diário.
 */
-
-(OPCIONAL)
-Semana 03-10: 

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Client Form</title>
+</head>
+<body>
+    <section class="container">
+        <h1>Fomulário de Cadastro</h1>
+        <ul>
+            <li>Nenhum Campo pode estar vazio</li>
+            <li>Usuário só poderá contar com Letras e/ou Números</li>
+            <li>Nome do Usuário deverá ter entre 3 e 12 caracteres</li>
+            <li>Senha precisa ter entre 6 e 12 caracteres</li>
+        </ul>
+        <form action="/" method="post" class="form">
+            <label for="name">Nome:</label>
+            <input type="text" name="username" class="user_name to_Validate">
+            <label for="surname">Sobrenome:</label>
+            <input type="text" name="surname" class="user_surname to_Validate">
+            <label for="cpf">CPF:</label>
+            <input type="text" name="usercpf" class="user_cpf to_Validate">
+            <label for="nickname">Usuário:</label>
+            <input type="text" name="nickname" class="user_nickname to_Validate">
+            <label for="password">Senha:</label>
+            <input type="password" name="password" class="user_password to_Validate">
+            <label for="password">Repetir Senha:</label>
+            <input type="password" name="password" class="confirm_password to_Validate">
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>

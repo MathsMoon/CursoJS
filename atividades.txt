@@ -6,6 +6,7 @@ x Aula_JsFunction/exe_calc/script2 -> Refazer a calculadora com uma função con
 - Aula_JsArray/Array_Map -> Revisar depois o código de ID para construir uma função que seguramente não repita os códigos ID's.
 - Aula_JsObject/Object_Prototype -> Refazer o código para criar um objeto de uma conta Bancária.
 - Aula_JsObject/exercicio/validateCPF -> Realizar uma verificação de CPF.
+- AulaJsClasses/exercicios/Class_CreateCPF -> Reescreva os comentários e verifica ortografia.
 - Exercicios/js/coderDesafios -> Manipulando o objeto de uma shoplist utilizando Map, filter e reduce.
 x Exercicios/js/Objects -> Realizar as atividades 79 e 81. (FEITO).
 - Exercicios/js/arrays -> Realizar as atividades especificadas.
