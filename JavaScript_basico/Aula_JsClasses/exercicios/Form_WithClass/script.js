@@ -31,18 +31,37 @@ class validateForm {
 
         /* Verifying the Specifics of Each Field in the Forms */
 
-        // For que percorre o todo o formulário para verificar se estão todos assinalados: 
+        // For que percorre o todo o formulário para verificar as condições:
         for(let camp of this.form.querySelectorAll('.to_Validate')) {
             //Com o label temos como especificar o nome do campo que estamos nos referindo
             let label = camp.previousElementSibling.innerHTML;
-            
+
+            // Verificando se existe algum campo em branco:
             if(!camp.value) {
                 this.createError(camp, `O campo ${label} não pode estar vazio!`);
                 valid = false;
             }
-        }
 
-        //Validating the CPF:
+            //Validating the CPF:
+            if(camp.classList.contains('cpf')){ 
+                if(!this.validating_CPF(camp)) valid = false;
+            }
+
+            if(camp.classList.contains('user_name')) {
+                if(!this.isNameValid(camp.value));
+            }
+        }
+    }
+
+    // Função que Valida o CPF passado:
+    validating_CPF(camp) {
+        const cpf = new ValidaCPF(camp.value);
+
+        if(!cpf.valida()) {
+            this.createError(camp, "CPF inserido é inválido!");
+            return false;
+        }
+        return true; 
     }
 
     // Função que cria uma mensagem de erro e retorna via Div para o usuário:
@@ -57,6 +76,12 @@ class validateForm {
         // Inserindo após o campo:
         camp.insertAdjacentElement('afterend', div);
     }
+
+    //Função que verifica se o nome obedece aos parâmetros:
+    isNameValid(camp) {
+        
+    }
+
 }
 
 //Calling the validateForm:

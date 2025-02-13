@@ -165,5 +165,8 @@ também o idioma.
 
 42 - Quadragésimo segundo dia, Tive que ajudar um amigo meu em outro projeto e acabei deixando de lado os estudos.
 
-43-46 - Durante esses últimos dias não tive tantos avanços, comecei a auxiliar um amigo em um projeto pessoal e não dei tempo para o 
+43-47 - Durante esses últimos dias não tive tantos avanços, comecei a auxiliar um amigo em um projeto pessoal e não dei tempo para o 
 estudo do JavaScript, mas vou aproveitar o resto da noite para avançar.
+
+48 - Quadragésimo oitavo dia, um dia muito parado, consegui ajudar meu amigo com o projeto dele, mas dali pra frente não consegui avançar
+em absolutamente nada.
