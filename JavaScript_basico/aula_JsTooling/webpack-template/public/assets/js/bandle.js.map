@@ -1,0 +1,1 @@
+{"version":3,"file":"bandle.js","mappings":";;;;AAAAA,KAAK,CAAC,YAAY,CAAC,C","sources":["webpack://webpack/./src/index.js"],"sourcesContent":["alert('Olá Mundo!');"],"names":["alert"],"sourceRoot":""}

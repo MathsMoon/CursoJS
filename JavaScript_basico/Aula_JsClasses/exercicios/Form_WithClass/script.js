@@ -16,7 +16,14 @@ class validateForm {
     // Função que irá lidar com os eventos do formulário:
     handleSubmit(e) {
         e.preventDefault(); //Prevent the page from reloading after sending the forms.
-        const validid_camps = this.checkfields();
+        const valid_camps = this.checkfields(); //
+        const valid_passwords = this.validating_PassWords();
+
+        // Validação de ambas as respostas para enviar o formulário.
+        if(valid_camps && valid_passwords) {
+            alert('Formulário Enviado');
+            this.form.submit();
+        }
     }
 
     // Função que irá realizar os checks para cada campo, para que estejam de acordo com as especificações:
@@ -42,26 +49,50 @@ class validateForm {
                 valid = false;
             }
 
-            //Validating the CPF:
+            /* Verificação dos fields do formulário. */
+
             if(camp.classList.contains('cpf')){ 
-                if(!this.validating_CPF(camp)) valid = false;
+                if(!this.validating_CPF(camp));
             }
 
             if(camp.classList.contains('user_name')) {
-                if(!this.isNameValid(camp.value));
+                if(!this.isNameValid(camp));
+            }
+
+            if(camp.classList.contains('user_surname')) {
+                if(!this.isNameValid(camp));
+            }
+
+            if(camp.classList.contains('user_nickname')) {
+                if(!this.isNicknameValid(camp));
             }
         }
+
+        return valid;
     }
 
-    // Função que Valida o CPF passado:
-    validating_CPF(camp) {
-        const cpf = new ValidaCPF(camp.value);
+    // Função que realizará o check das senhas passadas:
+    validating_PassWords() {
+        let valid = true;
+        
+        //Creating the statements to check and ensure that both fields are proper and identical.
+        const password = this.form.querySelector('.user_password');
+        const confirm_Password = this.form.querySelector('.confirm_password');
 
-        if(!cpf.valida()) {
-            this.createError(camp, "CPF inserido é inválido!");
-            return false;
+        //
+        if(password.value !== confirm_Password.value){
+            valid = false;
+            this.createError(password, "As Senhas devem ser as mesmas!");
+            this.createError(confirm_Password, "As Senhas devem ser as mesmas!");
         }
-        return true; 
+
+        //
+        if(password.value.length < 6 || password.value.length > 12){
+            valid = false;
+            this.createError(password, "A Senha devem ter entre 6 a 12 caracteres!");
+        }
+
+        return valid;
     }
 
     // Função que cria uma mensagem de erro e retorna via Div para o usuário:
@@ -77,11 +108,51 @@ class validateForm {
         camp.insertAdjacentElement('afterend', div);
     }
 
-    //Função que verifica se o nome obedece aos parâmetros:
-    isNameValid(camp) {
-        
+    // Função que Valida o CPF passado:
+    validating_CPF(camp) {
+        const cpf = new ValidaCPF(camp.value);
+
+        if(!cpf.valida()) {
+            this.createError(camp, "CPF inserido é inválido!");
+            return false;
+        }
+        return true; 
     }
 
+    //Função que verifica se o nome obedece aos parâmetros:
+    isNameValid(camp) {
+        const user = camp.value;
+        let valid = true;
+
+        if(user.length < 3 || user.length > 12) {
+            this.createError(camp, "Nome do usuário precisa ter entre 3 a 12 caracteres!");
+            valid = false;
+        }
+        
+        if(!user.match(/^[a-zA-Z0-9]+$/g)){
+            this.createError(camp, "Nome do usuário só aceita letras ou números!");
+            valid = false;
+        }
+
+        return valid;
+    }
+
+    isNicknameValid(camp) {
+        const user = camp.value;
+        let valid = true;
+        
+        if(!user.match(/^[a-zA-Z0-9]+$/g)){
+            this.createError(camp, "Nome do usuário só aceita letras ou números!");
+            valid = false;
+        }
+
+        if(user.length < 3 || user.length > 12) {
+            this.createError(camp, "Nome do usuário precisa ter entre 3 a 12 caracteres!");
+            valid = false;
+        }
+
+        return valid;
+    }
 }
 
 //Calling the validateForm:

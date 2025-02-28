@@ -19,8 +19,8 @@ observando de acordo com o andamento do curso.
 Pasta que tem a coletânea de exercícios que fiz de outros cursos e que não se relacionam com o CursoJS, mas por terem o mesmo foco estão
 aqui.
 ### 3. JavaScript_Basico
-Pasta principal que eu estudo os fundamentos do javascript, é a pasta principal que junto a pasta de Typescript, contém todo conteúdo 
-básico ao avançado de cada linguagem.
+Pasta principal do conteúdo introdutório ao Javascript, nesta pasta está desde os princípios de variáveis e sua manipulação até o ES6 
+que termina a visão completa sobre a estrutura da linguagem. 
 
 ---
 ## 🖖 **Regras do Desafio #100DaysCode**

@@ -61,7 +61,21 @@ especificado de chaves. Através disso, eles aprenderão sobre a manipulação d
 objetos e a importância de iterar corretamente sobre eles para alcançar o resultado
 desejado.
 */
+const any = [['c', 'a', 'd', 'b'], [1,2,3,4]];
+const correct = ['a', 'b', 'c', 'd'];
 
+/* Arrumar depois */
+// function filtrarPorChaves(arrayObjetos, chaves) { 
+//     return arrayObjetos.map(obj => 
+//       chaves.reduce((novoObj, chave) => {
+//         if (obj[chave] !== undefined) novoObj[chave] = obj[chave];
+//         return novoObj;
+//       }, {})
+//     );
+//   }  
+
+// const newa = filtrarPorChaves(any, correct);
+console.log(newa);
 
 // Agrupando 2 arrays em 1 só array:
 const arr3 = (arr1, arr2) => [...arr1, ...arr2];

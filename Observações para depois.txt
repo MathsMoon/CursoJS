@@ -18,7 +18,8 @@ Pontos importantes para serem revisados posteriormente:
 16 - Factory Function vs Constructor Function vs Classes (Javascript).
 17 - AddeventListener (Javascript).
 18 - Symbol (Javascript).
-
+19 - Webpack e CommonJs.
+20 - Ajax e HTTP Requests.
 
 Comentários sobre as aulas:
 
