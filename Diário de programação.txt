@@ -178,3 +178,7 @@ cerca de 3/4 semanas em que não houve produtividade, acumulado do total.
 65 - Sextagésimo quinto dia, primeiro dia usando um cabo HDMI como resposta para o problema da tela do notebook, estou conseguindo avançar 
 nas aulas finais do tema de assíncronia, logo estarei vendo uma seção extensa e muito pesada de Modules e Tooling do ES6, mas acredito que
 me esforçando este fim de semana, consigo eliminar essa seção inteirar e tocar o NodeJs de fato.
+
+66 - Sextagésimo sexto dia, bastantes avanços. Não tanto quanto os de ontem, mas espero poder voltar ainda hoje para continuar ou pelo menos
+terminar as aulas inicias que estou tendo no NodeJs, de resto estou feliz com o resultado que estou tendo, mas preciso me esforçar em organizar
+melhor o foco nas minhas atividades, para que eu não perca tempo com muita teoria que eu poderia aprender vendo por fora.

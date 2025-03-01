@@ -522,6 +522,141 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
        /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_style_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
+/***/ }),
+
+/***/ "./src/modules/Validating_cpf.js":
+/*!***************************************!*\
+  !*** ./src/modules/Validating_cpf.js ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ CPF_Validator)
+/* harmony export */ });
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _createForOfIteratorHelper(r, e) { var t = "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (!t) { if (Array.isArray(r) || (t = _unsupportedIterableToArray(r)) || e && r && "number" == typeof r.length) { t && (r = t); var _n = 0, F = function F() {}; return { s: F, n: function n() { return _n >= r.length ? { done: !0 } : { done: !1, value: r[_n++] }; }, e: function e(r) { throw r; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var o, a = !0, u = !1; return { s: function s() { t = t.call(r); }, n: function n() { var r = t.next(); return a = r.done, r; }, e: function e(r) { u = !0, o = r; }, f: function f() { try { a || null == t["return"] || t["return"](); } finally { if (u) throw o; } } }; }
+function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
+function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
+function _classCallCheck(a, n) { if (!(a instanceof n)) throw new TypeError("Cannot call a class as a function"); }
+function _defineProperties(e, r) { for (var t = 0; t < r.length; t++) { var o = r[t]; o.enumerable = o.enumerable || !1, o.configurable = !0, "value" in o && (o.writable = !0), Object.defineProperty(e, _toPropertyKey(o.key), o); } }
+function _createClass(e, r, t) { return r && _defineProperties(e.prototype, r), t && _defineProperties(e, t), Object.defineProperty(e, "prototype", { writable: !1 }), e; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : i + ""; }
+function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
+var CPF_Validator = /*#__PURE__*/function () {
+  function CPF_Validator(new_cpf) {
+    _classCallCheck(this, CPF_Validator);
+    //Defining the CPF property to safeguard and clean the content in order to better validate the information:
+    Object.defineProperty(this, 'cleanCPF', {
+      writable: false,
+      enumerable: true,
+      configurable: false,
+      value: new_cpf.replace(/\D+/g, '')
+    });
+  }
+
+  /* Class methods */
+  return _createClass(CPF_Validator, [{
+    key: "generate_NewCPF",
+    value: function generate_NewCPF() {
+      //Creating a new CPF with the clean num passed. (Rev) 
+      var cpf_WithoutLastTwo = this.cleanCPF.slice(0, -2); //Removing from CPF the last two digits. (Rev)
+      //Adding the last two numbers to create a new CPF. (Rev)
+      var first_Digit = CPF_Validator.getNewDigits(cpf_WithoutLastTwo);
+      var second_Digit = CPF_Validator.getNewDigits(cpf_WithoutLastTwo + first_Digit);
+      this.new_cpf = cpf_WithoutLastTwo + first_Digit + second_Digit;
+    }
+  }, {
+    key: "isa_Sequence",
+    value: function isa_Sequence() {
+      //verify if the cpf and returning a boolean value to verify and validate.
+      return this.cleanCPF.charAt(0).repeat(11) == this.cleanCPF;
+    }
+  }, {
+    key: "validating_CPF",
+    value: function validating_CPF() {
+      if (!this.cleanCPF) return false; //Confirming if the cpf_num was cleaned.
+      if (typeof this.cleanCPF !== 'string') return false; //Checking if the cpf_num is in string format.
+      if (this.cleanCPF.length !== 11) return false; //Checking the length, none under 11 can pass.
+      if (this.isa_Sequence()) return false; //Checking and denying whether it is a sequence.
+      this.generate_NewCPF(); // Criando um novo CPF.
+      return this.new_cpf === this.cleanCPF; // verificando se ambos são iguais.
+    }
+  }], [{
+    key: "getNewDigits",
+    value: function getNewDigits(cpf_WithoutLastTwo) {
+      // Pegando os dois últimos dígitos e criando novos:
+      var total = 0;
+      var reverse = cpf_WithoutLastTwo.length + 1;
+      var _iterator = _createForOfIteratorHelper(cpf_WithoutLastTwo),
+        _step;
+      try {
+        for (_iterator.s(); !(_step = _iterator.n()).done;) {
+          var string_Num = _step.value;
+          total += reverse * Number(string_Num);
+          reverse--;
+        }
+      } catch (err) {
+        _iterator.e(err);
+      } finally {
+        _iterator.f();
+      }
+      var digit = 11 - total % 11;
+      return digit <= 9 ? String(digit) : '0';
+    }
+  }]);
+}();
+
+
+/***/ }),
+
+/***/ "./src/modules/generate_cpf.js":
+/*!*************************************!*\
+  !*** ./src/modules/generate_cpf.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ generate_cpf)
+/* harmony export */ });
+/* harmony import */ var _Validating_cpf__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Validating_cpf */ "./src/modules/Validating_cpf.js");
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _classCallCheck(a, n) { if (!(a instanceof n)) throw new TypeError("Cannot call a class as a function"); }
+function _defineProperties(e, r) { for (var t = 0; t < r.length; t++) { var o = r[t]; o.enumerable = o.enumerable || !1, o.configurable = !0, "value" in o && (o.writable = !0), Object.defineProperty(e, _toPropertyKey(o.key), o); } }
+function _createClass(e, r, t) { return r && _defineProperties(e.prototype, r), t && _defineProperties(e, t), Object.defineProperty(e, "prototype", { writable: !1 }), e; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : i + ""; }
+function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
+
+var generate_cpf = /*#__PURE__*/function () {
+  function generate_cpf() {
+    _classCallCheck(this, generate_cpf);
+  }
+  return _createClass(generate_cpf, [{
+    key: "rand",
+    value: function rand() {
+      var min = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 100000000;
+      var max = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 999999999;
+      return String(Math.floor(Math.random() * (max - min) + min));
+    }
+  }, {
+    key: "formatedCPF",
+    value: function formatedCPF(cpf) {
+      return cpf.slice(0, 3) + '.' + cpf.slice(3, 6) + '.' + cpf.slice(6, 9) + '-' + cpf.slice(9, 11);
+    }
+  }, {
+    key: "newCPF",
+    value: function newCPF() {
+      var cpfWithouDigit = this.rand();
+      var first_Digit = _Validating_cpf__WEBPACK_IMPORTED_MODULE_0__["default"].getNewDigits(cpfWithouDigit);
+      var second_Digit = _Validating_cpf__WEBPACK_IMPORTED_MODULE_0__["default"].getNewDigits(cpfWithouDigit + first_Digit);
+      var new_cpf = cpfWithouDigit + first_Digit + second_Digit;
+      return this.formatedCPF(new_cpf);
+    }
+  }]);
+}();
+
+
 /***/ })
 
 /******/ 	});
@@ -604,8 +739,27 @@ var __webpack_exports__ = {};
   !*** ./src/main.js ***!
   \*********************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _assets_css_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/css/style.css */ "./src/assets/css/style.css");
+/* harmony import */ var _modules_generate_cpf_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/generate_cpf.js */ "./src/modules/generate_cpf.js");
+/* harmony import */ var _assets_css_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/css/style.css */ "./src/assets/css/style.css");
 
+
+(function () {
+  var generated_CPF = document.querySelector('.showingCPF');
+  document.addEventListener('click', function (e) {
+    var el = e.target;
+    if (el.classList.contains('newcpf')) {
+      generated_CPF.innerHTML = '';
+      giveNewCPF();
+    }
+    if (el.classList.contains('erase')) {
+      generated_CPF.innerHTML = '';
+    }
+  });
+  function giveNewCPF() {
+    var newCPF = new _modules_generate_cpf_js__WEBPACK_IMPORTED_MODULE_0__["default"]();
+    generated_CPF.innerHTML = newCPF.newCPF();
+  }
+})();
 })();
 
 /******/ })()
