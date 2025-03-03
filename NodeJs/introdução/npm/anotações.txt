@@ -1,0 +1,15 @@
+npm install - instala de acordo com as flags utilizadas. -E para uma versão fixa,
+^ para que possa receber upgrades menores e ~ apenas para patchs.
+para salvar como depedência de desenvolvimento, use: --save-dev.
+caso contrário pode-se utilizar a padrão com --save-prod.
+
+npm unistall - desinstala a depedência.
+
+npm ls - Mostra todo o root de depedências, suas e as que seus programas utilizam, para
+mostrar apenas as suas use o: --depth=0.
+
+npm outdated - Mostra todos os pacotes que estão desatualizados, pode-se utilizar o 
+update para arrumar automaticamente essas depedências.
+
+npm audit fix --force - Força o update de todas as depedências para sua versão mais
+atualizada.

@@ -182,3 +182,11 @@ me esforçando este fim de semana, consigo eliminar essa seção inteirar e toca
 66 - Sextagésimo sexto dia, bastantes avanços. Não tanto quanto os de ontem, mas espero poder voltar ainda hoje para continuar ou pelo menos
 terminar as aulas inicias que estou tendo no NodeJs, de resto estou feliz com o resultado que estou tendo, mas preciso me esforçar em organizar
 melhor o foco nas minhas atividades, para que eu não perca tempo com muita teoria que eu poderia aprender vendo por fora.
+
+67 - Sextagésimo sétimo dia, no dia de hoje consegui avançar ainda mais na seção de node e já estou começando a ver o que posso estudar por fora 
+para tornar mais prático meu estudo, quero logo utilizar o node da melhor forma e criar meus primeiros projetos utilizando as ferramentas de 
+backend.
+
+68 - Sextagésimo oitavo dia, hoje já consegui inserir informações no banco de dados e consulta-las, posteriormente irei ver mais ações que posso
+fazer com o Mongo DB, mas independe disto estou muito feliz pelo avanço. Já consigo começar a explorar mais projetos que precisam desse contato 
+com o banco de dados.

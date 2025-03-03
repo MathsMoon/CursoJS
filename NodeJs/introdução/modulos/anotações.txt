@@ -1,0 +1,20 @@
+Path é uma ferramenta do Node que auxilia a universalizar os paths do seu projeto
+independente da máquina que a utilize, tornando assim muito mais fácil o acesso e 
+manipulação de grandes projetos com várias pastas utilizando o Path.resolve.
+
+para buscar pastas que estão a frente do arquivo de origem da busca, use o ./caminho,
+caso contrário use o ../caminho. retorne quantas vezes for preciso para ir no fundo
+das raízes ou avance o máximo para adentrar as pastas que são procuradas.
+
+cada arquivo do javascript atua como um lugar único em que tudo escrito não é visível
+para o sistema, para que possamos exportar utilizando o Node, utilizamos os modules,
+seja via exports.oquevaiserexportado de forma direta ou usando um objeto com várias
+funções e variáveis dentro como o:
+
+modules.exports = {
+    variáveis a serem exportadas.
+}
+
+o import pode ser total usando apenas o require para receber:
+const a = require('./caminho'); ou pode ser especifico para o que for necessário 
+importar.
