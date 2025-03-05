@@ -194,3 +194,7 @@ com o banco de dados.
 69 - Sextagésimo nono dia, Dia de hoje não foi tão bom, não consegui resovler sozinho o problema do Token do csrf, mas de resto consegui finalizar
 a seção de Node e estou indo para fazer um pequeno projeto de uma agenda, vou tentar adicionar mais algumas coisas neste projeto para testar e ver 
 também como me saio nesse tipo de desenvolvimento.
+
+70 - Septagésimo dia, nos próximos dias vou me concentrar no estudo do node e também da familiarização com as possibilidades dentro deste 
+ambiente de desenvolvimento, assim vou conseguir da melhor forma ter noção do que posso usar como também das limitações e opções quando 
+for construindo as aplicações no futuro.
