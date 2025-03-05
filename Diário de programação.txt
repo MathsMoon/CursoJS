@@ -190,3 +190,7 @@ backend.
 68 - Sextagésimo oitavo dia, hoje já consegui inserir informações no banco de dados e consulta-las, posteriormente irei ver mais ações que posso
 fazer com o Mongo DB, mas independe disto estou muito feliz pelo avanço. Já consigo começar a explorar mais projetos que precisam desse contato 
 com o banco de dados.
+
+69 - Sextagésimo nono dia, Dia de hoje não foi tão bom, não consegui resovler sozinho o problema do Token do csrf, mas de resto consegui finalizar
+a seção de Node e estou indo para fazer um pequeno projeto de uma agenda, vou tentar adicionar mais algumas coisas neste projeto para testar e ver 
+também como me saio nesse tipo de desenvolvimento.

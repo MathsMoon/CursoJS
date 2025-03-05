@@ -1,38 +1,53 @@
-/* Seção de Imports */
-
-//Imports para caminhos:
-const path = require('path');
-const routes = require('./routes');
-
-//Imports das ferramentas da aplicação:
+require('dotenv').config();
 const express = require('express');
 const app = express();
-
-//Imports das configurações de conexão:
 const mongoose = require('mongoose');
-require('dotenv').config();
+mongoose.connect(process.env.CONNECTIONSTRING, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => {
+    app.emit('pronto');
+  })
+  .catch(e => console.log(e));
+const session = require('express-session');
+const MongoStore = require('connect-mongo');
+const flash = require('connect-flash');
+const routes = require('./routes');
+const path = require('path');
+const helmet = require('helmet');
+const csrf = require('csurf');
+const { middlewareGlobal, checkCsrfError, csrfMiddleware } = require('./src/middleware/middleware');
 
-/* Seção de Conexão */
-mongoose.connect(process.env.CONNECTIONSTRING).
-then(() => {
-    app.emit('ready');
+app.use(helmet());
+
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.static(path.resolve(__dirname, 'public')));
+
+const sessionOptions = session({
+  secret: 'akasdfj0út23453456+54qt23qv  qwf qwer qwer qewr asdasdasda a6()',
+  store: MongoStore.create({ mongoUrl: process.env.CONNECTIONSTRING }),
+  resave: false,
+  saveUninitialized: false,
+  cookie: {
+    maxAge: 1000 * 60 * 60 * 24 * 7,
+    httpOnly: true
+  }
 });
+app.use(sessionOptions);
+app.use(flash());
 
-/* Seção de uso da aplicação: */
-app.use(express.urlencoded({ extended: true})); //Permite pegar as informações via POST
-app.use(routes); //Usa as rotas para tornar dinâmico a construção do site
-app.use(express.static(path.resolve(__dirname, 'public'))); //criando modelos státicos para o site.
-
-
-/* Seção de view da aplicação: */
 app.set('views', path.resolve(__dirname, 'src', 'views'));
 app.set('view engine', 'ejs');
 
-//Permitindo o funcionamento do site após estabelecer a conexão com o banco:
-app.on('ready', () => {
-    //Hospedando o site na porta 3000 do localhost
-    app.listen(3000, () => {
-        console.log('Servidor ativo na porta 3000.');
-        console.log('Acesse aqui: http://localhost:3000');
-    });
-})
+app.use(csrf());
+// Nossos próprios middlewares
+app.use(middlewareGlobal);
+app.use(checkCsrfError);
+app.use(csrfMiddleware);
+app.use(routes);
+
+app.on('pronto', () => {
+  app.listen(3000, () => {
+    console.log('Acessar http://localhost:3000');
+    console.log('Servidor executando na porta 3000');
+  });
+});

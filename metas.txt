@@ -5,10 +5,10 @@ Semana 1: 57 aulas
 - Seção de Objetos e prototypes para Javascript(11/13).
 - Seção de Programação Orientada a Objeto (6/6).
 - Seção de Assincronia no Javascript (6/6).
-- Seção de Tooling e ES6 Modules no Javascript (0/9).
+- Seção de Tooling e ES6 Modules no Javascript (9/9).
 
 Semana 2: 79 aulas
-- Seção de Node (0/25).
+- Seção de Node (25/25).
 - Seção de Projeto Agenda (0/12).
 - Seção de Deploy de Aplicação (0/8).
 - Seção de API REST (0/21).

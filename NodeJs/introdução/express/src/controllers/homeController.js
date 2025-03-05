@@ -1,7 +1,7 @@
 const homeModel = require("../model/homeModel");
 
 //Aba inicial da página com formulário:
-exports.initialPage = (req, res) => {
+exports.initialPage = (req, res) => {    
     res.render('index');
 }
 
