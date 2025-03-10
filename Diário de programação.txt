@@ -198,3 +198,11 @@ também como me saio nesse tipo de desenvolvimento.
 70 - Septagésimo dia, nos próximos dias vou me concentrar no estudo do node e também da familiarização com as possibilidades dentro deste 
 ambiente de desenvolvimento, assim vou conseguir da melhor forma ter noção do que posso usar como também das limitações e opções quando 
 for construindo as aplicações no futuro.
+
+71 - Septagésimo primeiro dia, continue estudando por fora, mas desta vez parei em um problema que não sei nem por onde posso começar, o Knex 
+está dando conflito e eu não sei como posso fazer ele funcionar, já que em pouco tempo realmente pode ter tudo perdido a base para rodar como 
+era antes, o que me resta é tentar achar uma solução ou recorrer a outras tecnologias caso não encontre nada.
+
+72-75 - Nesses últimos dias tenho estudado por fora alguns projetos para aprender tanto Nestjs quanto node, tenho feito isso para me acostumar
+mais com essas ferramentas e para ir experimentando também outras tecnologias que irei usar em projetos na faculdade neste período. Vou organizar
+minha rotina para voltar este repositório e continuar o estudo deste curso em específico.
