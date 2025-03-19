@@ -114,6 +114,9 @@ função de callback e um array de arrays como argumentos, e retorne um novo arr
 contenha os resultados de aplicar a função de callback a cada array.
 */
 
+function newArray(callback, arr) {
+    
+}
 
 
 // 87 - Pegue 2 Arrays, combine os dois e pegue os números que são dividos por 5:

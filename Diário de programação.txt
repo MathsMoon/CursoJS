@@ -206,3 +206,12 @@ era antes, o que me resta é tentar achar uma solução ou recorrer a outras tec
 72-75 - Nesses últimos dias tenho estudado por fora alguns projetos para aprender tanto Nestjs quanto node, tenho feito isso para me acostumar
 mais com essas ferramentas e para ir experimentando também outras tecnologias que irei usar em projetos na faculdade neste período. Vou organizar
 minha rotina para voltar este repositório e continuar o estudo deste curso em específico.
+
+76 - Septagésimo sexto dia, fiz algumas pequenas atividades e pretendo continuar o curso em breve, vou apenas focar por hora no estudo de Nestjs para
+estar preparado para essa nova oportunidade que estou tendo.
+
+77-81 - Como tenho descrito estou trabalhando em outro repositório para fazer o projeto da Agenda e eu consegui avançar o suficiente para criar as
+interfaces gerais e também as seções de Login, recuperação de senha e Criação de cadastro, irei buscar agora dar funcionalidade a cada parte.
+
+85 - Octagésimo quinto dia, faltam 2 semanas para o fim deste processo de estudo, irei estudar mais alguns dias para que eu termine esse curso e possa 
+ao mesmo tempo estudar para os demais projetos que eu tenho me comprometido.
