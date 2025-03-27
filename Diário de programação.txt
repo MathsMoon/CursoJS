@@ -215,3 +215,6 @@ interfaces gerais e também as seções de Login, recuperação de senha e Cria�
 
 85 - Octagésimo quinto dia, faltam 2 semanas para o fim deste processo de estudo, irei estudar mais alguns dias para que eu termine esse curso e possa 
 ao mesmo tempo estudar para os demais projetos que eu tenho me comprometido.
+
+85 - 93: Essas últimas semanas tenho me concentrado em priorizar o projeto que eu tenho trabalhado na Horizon, mas irei reabrir logo + 100 dias para 
+terminar o app da agenda como também os demais do curso até ter um bom conhecimento do typescript. 

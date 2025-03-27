@@ -9,7 +9,7 @@ Semana 1: 57 aulas
 
 Semana 2: 79 aulas
 - Seção de Node (25/25).
-- Seção de Projeto Agenda (0/12).
+- Seção de Projeto Agenda (3/12).
 - Seção de Deploy de Aplicação (0/8).
 - Seção de API REST (0/21).
 - Seção de React componentes de classe (0/13).
