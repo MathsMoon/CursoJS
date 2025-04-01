@@ -218,3 +218,7 @@ ao mesmo tempo estudar para os demais projetos que eu tenho me comprometido.
 
 85 - 93: Essas últimas semanas tenho me concentrado em priorizar o projeto que eu tenho trabalhado na Horizon, mas irei reabrir logo + 100 dias para 
 terminar o app da agenda como também os demais do curso até ter um bom conhecimento do typescript. 
+
+94 - 98: Nesses últimos dias não tenho avançado tanto nos estudos, ainda tenho que projetar mehlor como ficará daqui para frente em relação a faculdade
+e aos projetos que tenho pendente. Mas continuarei postando um diário de programação para continuar os estudos, talvez a parte dois em si que eu deveria 
+ter começado, depois vou arrumar este repositório. 
