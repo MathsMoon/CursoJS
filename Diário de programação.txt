@@ -221,4 +221,9 @@ terminar o app da agenda como também os demais do curso até ter um bom conheci
 
 94 - 98: Nesses últimos dias não tenho avançado tanto nos estudos, ainda tenho que projetar mehlor como ficará daqui para frente em relação a faculdade
 e aos projetos que tenho pendente. Mas continuarei postando um diário de programação para continuar os estudos, talvez a parte dois em si que eu deveria 
-ter começado, depois vou arrumar este repositório. 
+ter começado, depois vou arrumar este repositório.
+
+100 - Não consegui finalizar o curso, não por falta de tempo. Mas por não ter gerido meu tempo da melhor forma. No dia que eu escrevo seria tecnicamente o 
+101, eu ainda não sei se irei continuar com este repositório ou se devo buscar algo novo para ir me motivando, de forma mais organizada. Tenho diversos 
+projetos para organizar e agora fica difícil seguir apenas uma Linha, vou deixar esse projeto em descanso igual o do Java. Logo voltarei para dar continuidade
+já que muitas tecnologias desse curso irei usar futuramente, mas preciso focar no que está a minha frente.
